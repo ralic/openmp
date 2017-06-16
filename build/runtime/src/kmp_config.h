@@ -59,7 +59,7 @@
 #define STUBS_LIBRARY 0
 #define LIBOMP_USE_HWLOC 0
 #define KMP_USE_HWLOC LIBOMP_USE_HWLOC
-#define KMP_ARCH_STR "Intel(R) 64"
+#define KMP_ARCH_STR "IA-32"
 #define KMP_LIBRARY_FILE "libomp.dylib"
 #define KMP_VERSION_MAJOR 5
 #define KMP_VERSION_MINOR 0

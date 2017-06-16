@@ -1,4 +1,4 @@
-set(CMAKE_CXX_COMPILER "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++")
+set(CMAKE_CXX_COMPILER "/Applications/Xcode.app/Contents/Developer/usr/bin/g++")
 set(CMAKE_CXX_COMPILER_ARG1 "")
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 set(CMAKE_CXX_COMPILER_VERSION "9.0.0.9000022")
@@ -66,5 +66,5 @@ endif()
 
 
 set(CMAKE_CXX_IMPLICIT_LINK_LIBRARIES "c++")
-set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/opt/valgrind/lib;/usr/local/opt/llvm/lib;/usr/local/opt/openblas/lib;/usr/local/opt/qt/lib;/usr/local/lib;/usr/local/opt/e2fsprogs/lib;/usr/local/opt/opencv3/lib;/usr/local/opt/bison/lib;/usr/local/opt/readline/lib;/usr/local/opt/gettext/lib;/usr/local/opt/libxml2/lib;/usr/local/opt/libpng/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib")
-set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks")
+set(CMAKE_CXX_IMPLICIT_LINK_DIRECTORIES "/usr/local/opt/valgrind/lib;/usr/local/opt/llvm/lib;/usr/local/opt/openblas/lib;/usr/local/opt/qt/lib;/usr/local/lib;/usr/local/opt/e2fsprogs/lib;/usr/local/opt/opencv3/lib;/usr/local/opt/bison/lib;/usr/local/opt/readline/lib;/usr/local/opt/gettext/lib;/usr/local/opt/libxml2/lib;/usr/local/opt/libpng/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/usr/lib")
+set(CMAKE_CXX_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Frameworks;/System/Library/Frameworks")

@@ -21,10 +21,11 @@ CMAKE_AR:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDef
 // CMAKE_C_FLAGS used) Debug Release RelWithDebInfo MinSizeRel.
 CMAKE_BUILD_TYPE:STRING=
 
-//Semicolon separated list of supported configuration types, only
-// supports Debug, Release, MinSizeRel, and RelWithDebInfo, anything
-// else will be ignored.
-CMAKE_CONFIGURATION_TYPES:STRING=Debug;Release;MinSizeRel;RelWithDebInfo
+//Enable/Disable color output during build.
+CMAKE_COLOR_MAKEFILE:BOOL=ON
+
+//CXX compiler
+CMAKE_CXX_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/usr/bin/g++
 
 //Flags used by the compiler during all build types.
 CMAKE_CXX_FLAGS:STRING=
@@ -41,6 +42,9 @@ CMAKE_CXX_FLAGS_RELEASE:STRING=-O3 -DNDEBUG
 
 //Flags used by the compiler during release builds with debug info.
 CMAKE_CXX_FLAGS_RELWITHDEBINFO:STRING=-O2 -g -DNDEBUG
+
+//C compiler
+CMAKE_C_COMPILER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 
 //Flags used by the compiler during all build types.
 CMAKE_C_FLAGS:STRING=-Ofast -fomit-frame-pointer -ffast-math -fno-signed-zeros -m32 -mmmx -msse  -ffp-contract=fast -funroll-loops
@@ -73,6 +77,9 @@ CMAKE_EXE_LINKER_FLAGS_RELEASE:STRING=
 //Flags used by the linker during Release with Debug Info builds.
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO:STRING=
 
+//Enable/Disable output of compile commands during generation.
+CMAKE_EXPORT_COMPILE_COMMANDS:BOOL=OFF
+
 //Path to a program.
 CMAKE_INSTALL_NAME_TOOL:FILEPATH=/usr/bin/install_name_tool
 
@@ -81,6 +88,9 @@ CMAKE_INSTALL_PREFIX:PATH=/usr/local
 
 //Path to a program.
 CMAKE_LINKER:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld
+
+//Path to a program.
+CMAKE_MAKE_PROGRAM:FILEPATH=/usr/local/opt/make/bin/gmake
 
 //Flags used by the linker during the creation of modules.
 CMAKE_MODULE_LINKER_FLAGS:STRING=-L/usr/local/opt/valgrind/lib -L/usr/local/opt/llvm/lib -Wl,-rpath,/usr/local/opt/llvm/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/qt/lib -L/usr/local/lib -L/usr/local/opt/e2fsprogs/lib -L/usr/local/opt/opencv3/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/libxml2/lib -L/usr/local/opt/libpng/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openssl@1.1/lib
@@ -115,7 +125,7 @@ CMAKE_OSX_DEPLOYMENT_TARGET:STRING=
 
 //The product will be built against the headers and libraries located
 // inside the indicated SDK.
-CMAKE_OSX_SYSROOT:PATH=/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk
+CMAKE_OSX_SYSROOT:STRING=
 
 //Value Computed by CMake
 CMAKE_PROJECT_NAME:STATIC=Project
@@ -170,7 +180,7 @@ CMAKE_STRIP:FILEPATH=/Applications/Xcode.app/Contents/Developer/Toolchains/Xcode
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
 //The architecture to build for (x86_64/i386/arm/ppc64/ppc64le/aarch64/mic/mips/mips64).
-LIBOMP_ARCH:STRING=x86_64
+LIBOMP_ARCH:STRING=i386
 
 //Appended user specified assembler flags.
 LIBOMP_ASMFLAGS:STRING=
@@ -326,8 +336,6 @@ omp_LIB_DEPENDS:STATIC=
 # INTERNAL cache entries
 ########################
 
-//Stored Xcode object GUID
-ALL_BUILD_GUID_CMAKE:INTERNAL=71B7830060144FB8B8805F8E
 //ADVANCED property for variable: CMAKE_AR
 CMAKE_AR-ADVANCED:INTERNAL=1
 //This is the directory where this CMakeCache.txt was created
@@ -338,12 +346,16 @@ CMAKE_CACHE_MAJOR_VERSION:INTERNAL=3
 CMAKE_CACHE_MINOR_VERSION:INTERNAL=8
 //Patch version of cmake used to create the current loaded cache
 CMAKE_CACHE_PATCH_VERSION:INTERNAL=2
+//ADVANCED property for variable: CMAKE_COLOR_MAKEFILE
+CMAKE_COLOR_MAKEFILE-ADVANCED:INTERNAL=1
 //Path to CMake executable.
 CMAKE_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.8.2/bin/cmake
 //Path to cpack program executable.
 CMAKE_CPACK_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.8.2/bin/cpack
 //Path to ctest program executable.
 CMAKE_CTEST_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.8.2/bin/ctest
+//ADVANCED property for variable: CMAKE_CXX_COMPILER
+CMAKE_CXX_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS
 CMAKE_CXX_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_DEBUG
@@ -354,6 +366,8 @@ CMAKE_CXX_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_CXX_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_CXX_FLAGS_RELWITHDEBINFO
 CMAKE_CXX_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_C_COMPILER
+CMAKE_C_COMPILER-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS
 CMAKE_C_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_DEBUG
@@ -364,6 +378,8 @@ CMAKE_C_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_C_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_C_FLAGS_RELWITHDEBINFO
 CMAKE_C_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//Path to cache edit program executable.
+CMAKE_EDIT_COMMAND:INTERNAL=/usr/local/Cellar/cmake/3.8.2/bin/ccmake
 //Executable file format
 CMAKE_EXECUTABLE_FORMAT:INTERNAL=Unknown
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS
@@ -376,10 +392,12 @@ CMAKE_EXE_LINKER_FLAGS_MINSIZEREL-ADVANCED:INTERNAL=1
 CMAKE_EXE_LINKER_FLAGS_RELEASE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO
 CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_EXPORT_COMPILE_COMMANDS
+CMAKE_EXPORT_COMPILE_COMMANDS-ADVANCED:INTERNAL=1
 //Name of external makefile project generator.
 CMAKE_EXTRA_GENERATOR:INTERNAL=
 //Name of generator.
-CMAKE_GENERATOR:INTERNAL=Xcode
+CMAKE_GENERATOR:INTERNAL=Unix Makefiles
 //Name of generator platform.
 CMAKE_GENERATOR_PLATFORM:INTERNAL=
 //Name of generator toolset.
@@ -395,6 +413,8 @@ CMAKE_HOME_DIRECTORY:INTERNAL=/Users/dojo/lab/openmp
 CMAKE_INSTALL_NAME_TOOL-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
 CMAKE_LINKER-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: CMAKE_MAKE_PROGRAM
+CMAKE_MAKE_PROGRAM-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS
 CMAKE_MODULE_LINKER_FLAGS-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_MODULE_LINKER_FLAGS_DEBUG
@@ -521,32 +541,8 @@ LIBOMP_HAVE_X_CPP_FLAG:INTERNAL=1
 LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS:INTERNAL=1
 //ADVANCED property for variable: PERL_EXECUTABLE
 PERL_EXECUTABLE-ADVANCED:INTERNAL=1
-//Stored Xcode object GUID
-PROJECT_Project_GUID_CMAKE:INTERNAL=EB648C65976246F78A94646F
-//Stored Xcode object GUID
-PROJECT_libomp_GUID_CMAKE:INTERNAL=E9287A439C2C4F2D8C8314B8
 //ADVANCED property for variable: PYTHON_EXECUTABLE
 PYTHON_EXECUTABLE-ADVANCED:INTERNAL=1
-//Stored Xcode object GUID
-ZERO_CHECK_GUID_CMAKE:INTERNAL=6DCB0D359A8A4DA5A711B835
 //Result of TRY_COMPILE
 compile_dummy:INTERNAL=FALSE
-//Stored Xcode object GUID
-install_GUID_CMAKE:INTERNAL=708E554DE496480E88CDE471
-//Stored Xcode object GUID
-libomp-micro-tests_GUID_CMAKE:INTERNAL=ECD9B8A1DF354700B884413C
-//Stored Xcode object GUID
-libomp-needed-headers_GUID_CMAKE:INTERNAL=308BF3035DA84741A79E732C
-//Stored Xcode object GUID
-libomp-test-deps_GUID_CMAKE:INTERNAL=0B390E510A144A6A8175DE9A
-//Stored Xcode object GUID
-libomp-test-execstack_GUID_CMAKE:INTERNAL=164D9E676C2F469C940F3226
-//Stored Xcode object GUID
-libomp-test-instr_GUID_CMAKE:INTERNAL=32B8A7B46EB340E9B7752FCC
-//Stored Xcode object GUID
-libomp-test-relo_GUID_CMAKE:INTERNAL=98F1258747C346218240D1FB
-//Stored Xcode object GUID
-libomp-test-touch_GUID_CMAKE:INTERNAL=52AC2A2063814DBB85FD4B69
-//Stored Xcode object GUID
-omp_GUID_CMAKE:INTERNAL=B5B409EC213E4C2B8EB917D6
 

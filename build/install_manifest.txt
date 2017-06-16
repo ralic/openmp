@@ -1,0 +1,2 @@
+/usr/local/lib/libomp.dylib
+/usr/local/include/omp.h

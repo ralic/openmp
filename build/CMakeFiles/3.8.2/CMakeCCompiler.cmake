@@ -38,7 +38,7 @@ set(CMAKE_C_IGNORE_EXTENSIONS h;H;o;O;obj;OBJ;def;DEF;rc;RC)
 set(CMAKE_C_LINKER_PREFERENCE 10)
 
 # Save compiler ABI information.
-set(CMAKE_C_SIZEOF_DATA_PTR "8")
+set(CMAKE_C_SIZEOF_DATA_PTR "4")
 set(CMAKE_C_COMPILER_ABI "")
 set(CMAKE_C_LIBRARY_ARCHITECTURE "")
 
@@ -64,5 +64,5 @@ endif()
 
 
 set(CMAKE_C_IMPLICIT_LINK_LIBRARIES "")
-set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/local/opt/valgrind/lib;/usr/local/opt/llvm/lib;/usr/local/opt/openblas/lib;/usr/local/opt/qt/lib;/usr/local/lib;/usr/local/opt/e2fsprogs/lib;/usr/local/opt/opencv3/lib;/usr/local/opt/bison/lib;/usr/local/opt/readline/lib;/usr/local/opt/gettext/lib;/usr/local/opt/libxml2/lib;/usr/local/opt/libpng/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib")
-set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks")
+set(CMAKE_C_IMPLICIT_LINK_DIRECTORIES "/usr/local/opt/valgrind/lib;/usr/local/opt/llvm/lib;/usr/local/opt/openblas/lib;/usr/local/opt/qt/lib;/usr/local/lib;/usr/local/opt/e2fsprogs/lib;/usr/local/opt/opencv3/lib;/usr/local/opt/bison/lib;/usr/local/opt/readline/lib;/usr/local/opt/gettext/lib;/usr/local/opt/libxml2/lib;/usr/local/opt/libpng/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openssl@1.1/lib;/usr/lib")
+set(CMAKE_C_IMPLICIT_LINK_FRAMEWORK_DIRECTORIES "/Library/Frameworks;/System/Library/Frameworks")
