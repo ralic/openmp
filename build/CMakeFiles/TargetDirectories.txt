@@ -1,0 +1,16 @@
+/Users/dojo/lab/openmp/build/CMakeFiles/install.dir
+/Users/dojo/lab/openmp/build/CMakeFiles/ALL_BUILD.dir
+/Users/dojo/lab/openmp/build/CMakeFiles/ZERO_CHECK.dir
+/Users/dojo/lab/openmp/build/runtime/CMakeFiles/install.dir
+/Users/dojo/lab/openmp/build/runtime/CMakeFiles/ALL_BUILD.dir
+/Users/dojo/lab/openmp/build/runtime/CMakeFiles/ZERO_CHECK.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/libomp-test-deps.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/libomp-micro-tests.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/libomp-test-execstack.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/libomp-test-relo.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/install.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/libomp-test-touch.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/libomp-test-instr.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/libomp-needed-headers.dir
+/Users/dojo/lab/openmp/build/runtime/src/CMakeFiles/omp.dir
+/Users/dojo/lab/openmp/build/runtime/test/CMakeFiles/install.dir
