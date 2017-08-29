@@ -1,0 +1,1045 @@
+The system is: Darwin - 16.7.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc 
+Build flags: -fomit-frame-pointer;-funroll-loops;;-ffast-math;-Ofast;-fno-signed-zeros;-ffp-contract=fast;-mmmx;-msse;-flto;;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is AppleClang, found in "/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/3.9.1/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /Applications/Xcode.app/Contents/Developer/usr/bin/g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is AppleClang, found in "/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/3.9.1/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_a971a/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_a971a.dir/build.make CMakeFiles/cmTC_a971a.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a971a.dir/testCCompiler.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_a971a.dir/testCCompiler.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_a971a
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a971a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_a971a.dir/testCCompiler.c.o  -o cmTC_a971a 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_70daf/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_70daf.dir/build.make CMakeFiles/cmTC_70daf.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_70daf
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70daf.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o  -o cmTC_70daf 
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_70daf -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/local/opt/openblas/lib
+	/usr/local/opt/llvm/lib
+	/usr/local/opt/readline/lib
+	/usr/local/opt/openssl@1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
+LLVM version 8.1.0, (clang-802.0.42)
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_70daf/fast"]
+  ignore line: [/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_70daf.dir/build.make CMakeFiles/cmTC_70daf.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_70daf]
+  ignore line: [/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70daf.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o  -o cmTC_70daf ]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_70daf -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.6] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_70daf] ==> ignore
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/usr/local/opt/readline/lib] ==> dir [/usr/local/opt/readline/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_70daf.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: []
+  implicit dirs: [/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_80626/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_80626.dir/build.make CMakeFiles/cmTC_80626.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_80626.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c11 -o CMakeFiles/cmTC_80626.dir/feature_tests.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_80626
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_80626.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_80626.dir/feature_tests.c.o  -o cmTC_80626 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_b9f13/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_b9f13.dir/build.make CMakeFiles/cmTC_b9f13.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b9f13.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c99 -o CMakeFiles/cmTC_b9f13.dir/feature_tests.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_b9f13
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b9f13.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_b9f13.dir/feature_tests.c.o  -o cmTC_b9f13 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_db584/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_db584.dir/build.make CMakeFiles/cmTC_db584.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_db584.dir/feature_tests.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c90 -o CMakeFiles/cmTC_db584.dir/feature_tests.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/feature_tests.c
+Linking C executable cmTC_db584
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db584.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_db584.dir/feature_tests.c.o  -o cmTC_db584 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_f2718/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_f2718.dir/build.make CMakeFiles/cmTC_f2718.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f2718.dir/testCXXCompiler.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_f2718.dir/testCXXCompiler.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_f2718
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f2718.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_f2718.dir/testCXXCompiler.cxx.o  -o cmTC_f2718 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_bce7a/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_bce7a.dir/build.make CMakeFiles/cmTC_bce7a.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_bce7a
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce7a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bce7a 
+Apple LLVM version 8.1.0 (clang-802.0.42)
+Target: x86_64-apple-darwin16.7.0
+Thread model: posix
+InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_bce7a -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-278.4
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+Library search paths:
+	/usr/local/opt/openblas/lib
+	/usr/local/opt/llvm/lib
+	/usr/local/opt/readline/lib
+	/usr/local/opt/openssl@1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_bce7a/fast"]
+  ignore line: [/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_bce7a.dir/build.make CMakeFiles/cmTC_bce7a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_bce7a]
+  ignore line: [/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bce7a.dir/link.txt --verbose=1]
+  ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -v -Wl,-v CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_bce7a ]
+  ignore line: [Apple LLVM version 8.1.0 (clang-802.0.42)]
+  ignore line: [Target: x86_64-apple-darwin16.7.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+  link line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld" -demangle -lto_library /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.12.6 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -o cmTC_bce7a -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o -lc++ -lSystem /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.12.6] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_bce7a] ==> ignore
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/usr/local/opt/readline/lib] ==> dir [/usr/local/opt/readline/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_bce7a.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a] ==> lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/../lib/clang/8.1.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+  implicit libs: [c++]
+  implicit dirs: [/usr/local/opt/openblas/lib;/usr/local/opt/llvm/lib;/usr/local/opt/readline/lib;/usr/local/opt/openssl@1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk/System/Library/Frameworks]
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_f7e4f/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_f7e4f.dir/build.make CMakeFiles/cmTC_f7e4f.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_f7e4f.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c++1z -o CMakeFiles/cmTC_f7e4f.dir/feature_tests.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_f7e4f
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7e4f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_f7e4f.dir/feature_tests.cxx.o  -o cmTC_f7e4f 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_ed223/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_ed223.dir/build.make CMakeFiles/cmTC_ed223.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ed223.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c++14 -o CMakeFiles/cmTC_ed223.dir/feature_tests.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_ed223
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ed223.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_ed223.dir/feature_tests.cxx.o  -o cmTC_ed223 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_2fe90/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_2fe90.dir/build.make CMakeFiles/cmTC_2fe90.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_2fe90.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c++11 -o CMakeFiles/cmTC_2fe90.dir/feature_tests.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_2fe90
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2fe90.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_2fe90.dir/feature_tests.cxx.o  -o cmTC_2fe90 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_5925c/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_5925c.dir/build.make CMakeFiles/cmTC_5925c.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5925c.dir/feature_tests.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c++98 -o CMakeFiles/cmTC_5925c.dir/feature_tests.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/feature_tests.cxx
+Linking CXX executable cmTC_5925c
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5925c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_5925c.dir/feature_tests.cxx.o  -o cmTC_5925c 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_STD_CPP11_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_c4076/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_c4076.dir/build.make CMakeFiles/cmTC_c4076.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4076.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -DLIBOMP_HAVE_STD_CPP11_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -std=c++11 -o CMakeFiles/cmTC_c4076.dir/src.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_c4076
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c4076.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -DLIBOMP_HAVE_STD_CPP11_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_c4076.dir/src.cxx.o  -o cmTC_c4076 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_7603b/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_7603b.dir/build.make CMakeFiles/cmTC_7603b.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7603b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -DLIBOMP_HAVE_FNO_EXCEPTIONS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -fno-exceptions -o CMakeFiles/cmTC_7603b.dir/src.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_7603b
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7603b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -DLIBOMP_HAVE_FNO_EXCEPTIONS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_7603b.dir/src.cxx.o  -o cmTC_7603b 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_RTTI_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_a24ab/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_a24ab.dir/build.make CMakeFiles/cmTC_a24ab.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a24ab.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++    -DLIBOMP_HAVE_FNO_RTTI_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -fno-rtti -o CMakeFiles/cmTC_a24ab.dir/src.cxx.o -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_a24ab
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a24ab.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/usr/bin/g++   -DLIBOMP_HAVE_FNO_RTTI_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_a24ab.dir/src.cxx.o  -o cmTC_a24ab 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_X_CPP_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_5e1de/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_5e1de.dir/build.make CMakeFiles/cmTC_5e1de.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e1de.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_X_CPP_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -x c++ -o CMakeFiles/cmTC_5e1de.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5e1de
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e1de.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_X_CPP_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_5e1de.dir/src.c.o  -o cmTC_5e1de 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WERROR_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_c64ae/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_c64ae.dir/build.make CMakeFiles/cmTC_c64ae.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c64ae.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Werror -o CMakeFiles/cmTC_c64ae.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_c64ae
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c64ae.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_c64ae.dir/src.c.o  -o cmTC_c64ae 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_FUNCTION_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_4c0a6/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_4c0a6.dir/build.make CMakeFiles/cmTC_4c0a6.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c0a6.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_FUNCTION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wunused-function -o CMakeFiles/cmTC_4c0a6.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4c0a6
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c0a6.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_FUNCTION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_4c0a6.dir/src.c.o  -o cmTC_4c0a6 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_LOCAL_TYPEDEF_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_02d3b/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_02d3b.dir/build.make CMakeFiles/cmTC_02d3b.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_02d3b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_LOCAL_TYPEDEF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wunused-local-typedef -o CMakeFiles/cmTC_02d3b.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_02d3b
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_02d3b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_LOCAL_TYPEDEF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_02d3b.dir/src.c.o  -o cmTC_02d3b 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_VALUE_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_3e229/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_3e229.dir/build.make CMakeFiles/cmTC_3e229.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3e229.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_VALUE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wunused-value -o CMakeFiles/cmTC_3e229.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3e229
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3e229.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_VALUE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3e229.dir/src.c.o  -o cmTC_3e229 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_VARIABLE_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_ba58b/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_ba58b.dir/build.make CMakeFiles/cmTC_ba58b.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ba58b.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_VARIABLE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wunused-variable -o CMakeFiles/cmTC_ba58b.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ba58b
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ba58b.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNUSED_VARIABLE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_ba58b.dir/src.c.o  -o cmTC_ba58b 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_SWITCH_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_5e252/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_5e252.dir/build.make CMakeFiles/cmTC_5e252.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5e252.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_SWITCH_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wswitch -o CMakeFiles/cmTC_5e252.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5e252
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e252.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_SWITCH_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_5e252.dir/src.c.o  -o cmTC_5e252 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_a334c/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_a334c.dir/build.make CMakeFiles/cmTC_a334c.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a334c.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wcovered-switch-default -o CMakeFiles/cmTC_a334c.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a334c
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a334c.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_a334c.dir/src.c.o  -o cmTC_a334c 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_DEPRECATED_REGISTER_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_3b44a/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_3b44a.dir/build.make CMakeFiles/cmTC_3b44a.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3b44a.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_DEPRECATED_REGISTER_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wdeprecated-register -o CMakeFiles/cmTC_3b44a.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3b44a
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3b44a.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_DEPRECATED_REGISTER_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3b44a.dir/src.c.o  -o cmTC_3b44a 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_SIGN_COMPARE_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_5b719/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_5b719.dir/build.make CMakeFiles/cmTC_5b719.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5b719.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_SIGN_COMPARE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wsign-compare -o CMakeFiles/cmTC_5b719.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5b719
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5b719.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_SIGN_COMPARE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_5b719.dir/src.c.o  -o cmTC_5b719 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_GNU_ANONYMOUS_STRUCT_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_0313e/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_0313e.dir/build.make CMakeFiles/cmTC_0313e.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0313e.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_GNU_ANONYMOUS_STRUCT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wgnu-anonymous-struct -o CMakeFiles/cmTC_0313e.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0313e
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0313e.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_GNU_ANONYMOUS_STRUCT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_0313e.dir/src.c.o  -o cmTC_0313e 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNKNOWN_PRAGMAS_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_2445f/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_2445f.dir/build.make CMakeFiles/cmTC_2445f.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2445f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNKNOWN_PRAGMAS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wunknown-pragmas -o CMakeFiles/cmTC_2445f.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_2445f
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2445f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_UNKNOWN_PRAGMAS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_2445f.dir/src.c.o  -o cmTC_2445f 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_bdb05/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_bdb05.dir/build.make CMakeFiles/cmTC_bdb05.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bdb05.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_MISSING_FIELD_INITIALIZERS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wmissing-field-initializers -o CMakeFiles/cmTC_bdb05.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bdb05
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bdb05.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_MISSING_FIELD_INITIALIZERS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_bdb05.dir/src.c.o  -o cmTC_bdb05 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_MISSING_BRACES_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_3ae25/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_3ae25.dir/build.make CMakeFiles/cmTC_3ae25.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ae25.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_MISSING_BRACES_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wmissing-braces -o CMakeFiles/cmTC_3ae25.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ae25
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ae25.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_MISSING_BRACES_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_3ae25.dir/src.c.o  -o cmTC_3ae25 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_COMMENT_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_04f98/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_04f98.dir/build.make CMakeFiles/cmTC_04f98.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_04f98.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_COMMENT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wcomment -o CMakeFiles/cmTC_04f98.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_04f98
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_04f98.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_COMMENT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_04f98.dir/src.c.o  -o cmTC_04f98 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_SELF_ASSIGN_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_282ec/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_282ec.dir/build.make CMakeFiles/cmTC_282ec.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_282ec.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_SELF_ASSIGN_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wself-assign -o CMakeFiles/cmTC_282ec.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_282ec
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_282ec.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_SELF_ASSIGN_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_282ec.dir/src.c.o  -o cmTC_282ec 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_VLA_EXTENSION_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_75568/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_75568.dir/build.make CMakeFiles/cmTC_75568.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75568.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_VLA_EXTENSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wvla-extension -o CMakeFiles/cmTC_75568.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_75568
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75568.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_VLA_EXTENSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_75568.dir/src.c.o  -o cmTC_75568 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_FORMAT_PEDANTIC_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_82c28/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_82c28.dir/build.make CMakeFiles/cmTC_82c28.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82c28.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_FORMAT_PEDANTIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -Wformat-pedantic -o CMakeFiles/cmTC_82c28.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_82c28
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82c28.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WNO_FORMAT_PEDANTIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_82c28.dir/src.c.o  -o cmTC_82c28 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_MSSE2_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_53bc0/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_53bc0.dir/build.make CMakeFiles/cmTC_53bc0.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53bc0.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_MSSE2_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -msse2 -o CMakeFiles/cmTC_53bc0.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_53bc0
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53bc0.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_MSSE2_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_53bc0.dir/src.c.o  -o cmTC_53bc0 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_FTLS_MODEL_FLAG succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_09d00/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_09d00.dir/build.make CMakeFiles/cmTC_09d00.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_09d00.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_FTLS_MODEL_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -ftls-model=initial-exec -o CMakeFiles/cmTC_09d00.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_09d00
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_09d00.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_FTLS_MODEL_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_09d00.dir/src.c.o  -o cmTC_09d00 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_daf19/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_daf19.dir/build.make CMakeFiles/cmTC_daf19.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_daf19.dir/CheckIncludeFile.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_daf19.dir/CheckIncludeFile.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_daf19
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_daf19.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_daf19.dir/CheckIncludeFile.c.o  -o cmTC_daf19 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_d8c47/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_d8c47.dir/build.make CMakeFiles/cmTC_d8c47.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d8c47.dir/CheckSymbolExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_d8c47.dir/CheckSymbolExists.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_d8c47
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d8c47.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_d8c47.dir/CheckSymbolExists.c.o  -o cmTC_d8c47 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+File /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_26a2f/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_26a2f.dir/build.make CMakeFiles/cmTC_26a2f.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26a2f.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE___BUILTIN_FRAME_ADDRESS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_26a2f.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_26a2f
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26a2f.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE___BUILTIN_FRAME_ADDRESS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_26a2f.dir/src.c.o  -o cmTC_26a2f 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char** argv) {
+  void* p = __builtin_frame_address(0);
+  return 0;}
+Performing C SOURCE FILE Test LIBOMP_HAVE_WEAK_ATTRIBUTE succeeded with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_404a8/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_404a8.dir/build.make CMakeFiles/cmTC_404a8.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_404a8.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WEAK_ATTRIBUTE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_404a8.dir/src.c.o   -c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_404a8
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_404a8.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DLIBOMP_HAVE_WEAK_ATTRIBUTE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_404a8.dir/src.c.o  -o cmTC_404a8 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+__attribute__ ((weak)) int foo(int a) { return a*a; }
+  int main(int argc, char** argv) {
+  return foo(argc);}
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_89560/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_89560.dir/build.make CMakeFiles/cmTC_89560.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_89560.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_89560.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_89560
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_89560.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_89560.dir/CheckFunctionExists.c.o  -o cmTC_89560 -lm 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
+Determining if the function __atomic_load_1 exists passed with the following output:
+Change Dir: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/opt/make/bin/gmake" "cmTC_b0895/fast"
+/usr/local/opt/make/bin/gmake -f CMakeFiles/cmTC_b0895.dir/build.make CMakeFiles/cmTC_b0895.dir/build
+gmake[1]: Entering directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b0895.dir/CheckFunctionExists.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DCHECK_FUNCTION_EXISTS=__atomic_load_1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6   -o CMakeFiles/cmTC_b0895.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.1/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_b0895
+/usr/local/Cellar/cmake/3.9.1/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b0895.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -DCHECK_FUNCTION_EXISTS=__atomic_load_1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.12.sdk -mmacosx-version-min=10.12.6 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/openblas/lib -L/usr/local/opt/llvm/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/openssl@1.1/lib  CMakeFiles/cmTC_b0895.dir/CheckFunctionExists.c.o  -o cmTC_b0895 
+gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
+
+
