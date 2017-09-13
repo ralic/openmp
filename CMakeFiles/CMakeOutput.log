@@ -1043,3 +1043,899 @@ Linking C executable cmTC_b0895
 gmake[1]: Leaving directory '/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles/CMakeTmp'
 
 
+The system is: Darwin - 17.0.0 - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/local/bin/mpicc 
+Build flags: -fomit-frame-pointer;-funroll-loops;;-ffast-math;-Ofast;-fno-signed-zeros;-ffp-contract=fast;-mmmx;-msse;-flto;-maes;-march=native;;;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is Clang, found in "/Users/dojo/openmp/CMakeFiles/3.9.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /usr/local/bin/mpicxx 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is Clang, found in "/Users/dojo/openmp/CMakeFiles/3.9.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_3301d/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_3301d.dir/build.make CMakeFiles/cmTC_3301d.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3301d.dir/testCCompiler.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_3301d.dir/testCCompiler.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_3301d
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3301d.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_3301d.dir/testCCompiler.c.o  -o cmTC_3301d 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_f8b4a/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_f8b4a.dir/build.make CMakeFiles/cmTC_f8b4a.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_f8b4a
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8b4a.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -v -Wl,-v CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o  -o cmTC_f8b4a 
+clang version 5.0.0 (tags/RELEASE_500/final)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /usr/local/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_f8b4a -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -L/usr/local/opt/libevent/lib -L/usr/local/Cellar/open-mpi/2.1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o -lmpi -lSystem /usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+Library search paths:
+	/usr/local/opt/valgrind/lib
+	/usr/local/opt/suite-sparse/lib
+	/usr/local/opt/tbb/lib
+	/usr/local/opt/grt/lib
+	/usr/local/opt/bison/lib
+	/usr/local/opt/gettext/lib
+	/usr/local/opt/zlib/lib
+	/usr/local/opt/openblas/lib
+	/usr/local/opt/openssl@1.1/lib
+	/usr/local/opt/sqlite/lib
+	/usr/local/opt/readline/lib
+	/usr/local/opt/lapack/lib
+	/usr/local/opt/open-mpi/lib
+	/usr/local/opt/binutils/lib
+	/usr/local/opt/boost-python/lib
+	/usr/local/opt/boost-mpi/lib
+	/usr/local/opt/boost/lib
+	/usr/local/opt/llvm/lib
+	/opt/X11/lib
+	/usr/local/Cellar/gcc/7.2.0/lib/gcc/7
+	/usr/local/cuda/lib
+	/usr/local/cuda/nvvm/lib
+	/usr/local/opt/libevent/lib
+	/usr/local/Cellar/open-mpi/2.1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+LLVM version 5.0.0
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_f8b4a/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_f8b4a.dir/build.make CMakeFiles/cmTC_f8b4a.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_f8b4a]
+  ignore line: [/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f8b4a.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -v -Wl,-v CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o  -o cmTC_f8b4a ]
+  ignore line: [clang version 5.0.0 (tags/RELEASE_500/final)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/bin]
+  ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_f8b4a -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -L/usr/local/opt/libevent/lib -L/usr/local/Cellar/open-mpi/2.1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o -lmpi -lSystem /usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_f8b4a] ==> ignore
+    arg [-L/usr/local/opt/opencl/lib] ==> dir [/usr/local/opt/opencl/lib]
+    arg [-L/usr/local/opt/valgrind/lib] ==> dir [/usr/local/opt/valgrind/lib]
+    arg [-L/usr/local/opt/suite-sparse/lib] ==> dir [/usr/local/opt/suite-sparse/lib]
+    arg [-L/usr/local/opt/tbb/lib] ==> dir [/usr/local/opt/tbb/lib]
+    arg [-L/usr/local/opt/grt/lib] ==> dir [/usr/local/opt/grt/lib]
+    arg [-L/usr/local/opt/bison/lib] ==> dir [/usr/local/opt/bison/lib]
+    arg [-L/usr/local/opt/gettext/lib] ==> dir [/usr/local/opt/gettext/lib]
+    arg [-L/usr/local/opt/zlib/lib] ==> dir [/usr/local/opt/zlib/lib]
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-L/usr/local/opt/sqlite/lib] ==> dir [/usr/local/opt/sqlite/lib]
+    arg [-L/usr/local/opt/readline/lib] ==> dir [/usr/local/opt/readline/lib]
+    arg [-L/usr/local/opt/lapack/lib] ==> dir [/usr/local/opt/lapack/lib]
+    arg [-L/usr/local/opt/open-mpi/lib] ==> dir [/usr/local/opt/open-mpi/lib]
+    arg [-L/usr/local/opt/binutils/lib] ==> dir [/usr/local/opt/binutils/lib]
+    arg [-L/usr/local/opt/boost-python/lib] ==> dir [/usr/local/opt/boost-python/lib]
+    arg [-L/usr/local/opt/boost-mpi/lib] ==> dir [/usr/local/opt/boost-mpi/lib]
+    arg [-L/usr/local/opt/boost/lib] ==> dir [/usr/local/opt/boost/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/opt/X11/lib] ==> dir [/opt/X11/lib]
+    arg [-L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7] ==> dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+    arg [-L/usr/local/cuda/lib] ==> dir [/usr/local/cuda/lib]
+    arg [-L/usr/local/cuda/nvvm/lib] ==> dir [/usr/local/cuda/nvvm/lib]
+    arg [-L/usr/local/opt/libevent/lib] ==> dir [/usr/local/opt/libevent/lib]
+    arg [-L/usr/local/Cellar/open-mpi/2.1.1/lib] ==> dir [/usr/local/Cellar/open-mpi/2.1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_f8b4a.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/valgrind/lib;/usr/local/opt/suite-sparse/lib;/usr/local/opt/tbb/lib;/usr/local/opt/grt/lib;/usr/local/opt/bison/lib;/usr/local/opt/gettext/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openblas/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/lapack/lib;/usr/local/opt/open-mpi/lib;/usr/local/opt/binutils/lib;/usr/local/opt/boost-python/lib;/usr/local/opt/boost-mpi/lib;/usr/local/opt/boost/lib;/usr/local/opt/llvm/lib;/opt/X11/lib;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7;/usr/local/cuda/lib;/usr/local/cuda/nvvm/lib;/usr/local/opt/libevent/lib;/usr/local/Cellar/open-mpi/2.1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/opencl/lib] ==> [/usr/local/opt/opencl/lib]
+  collapse library dir [/usr/local/opt/valgrind/lib] ==> [/usr/local/opt/valgrind/lib]
+  collapse library dir [/usr/local/opt/suite-sparse/lib] ==> [/usr/local/opt/suite-sparse/lib]
+  collapse library dir [/usr/local/opt/tbb/lib] ==> [/usr/local/opt/tbb/lib]
+  collapse library dir [/usr/local/opt/grt/lib] ==> [/usr/local/opt/grt/lib]
+  collapse library dir [/usr/local/opt/bison/lib] ==> [/usr/local/opt/bison/lib]
+  collapse library dir [/usr/local/opt/gettext/lib] ==> [/usr/local/opt/gettext/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/lapack/lib] ==> [/usr/local/opt/lapack/lib]
+  collapse library dir [/usr/local/opt/open-mpi/lib] ==> [/usr/local/opt/open-mpi/lib]
+  collapse library dir [/usr/local/opt/binutils/lib] ==> [/usr/local/opt/binutils/lib]
+  collapse library dir [/usr/local/opt/boost-python/lib] ==> [/usr/local/opt/boost-python/lib]
+  collapse library dir [/usr/local/opt/boost-mpi/lib] ==> [/usr/local/opt/boost-mpi/lib]
+  collapse library dir [/usr/local/opt/boost/lib] ==> [/usr/local/opt/boost/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/opt/X11/lib] ==> [/opt/X11/lib]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+  collapse library dir [/usr/local/cuda/lib] ==> [/usr/local/cuda/lib]
+  collapse library dir [/usr/local/cuda/nvvm/lib] ==> [/usr/local/cuda/nvvm/lib]
+  collapse library dir [/usr/local/opt/libevent/lib] ==> [/usr/local/opt/libevent/lib]
+  collapse library dir [/usr/local/Cellar/open-mpi/2.1.1/lib] ==> [/usr/local/Cellar/open-mpi/2.1.1/lib]
+  collapse library dir [/usr/local/opt/valgrind/lib] ==> [/usr/local/opt/valgrind/lib]
+  collapse library dir [/usr/local/opt/suite-sparse/lib] ==> [/usr/local/opt/suite-sparse/lib]
+  collapse library dir [/usr/local/opt/tbb/lib] ==> [/usr/local/opt/tbb/lib]
+  collapse library dir [/usr/local/opt/grt/lib] ==> [/usr/local/opt/grt/lib]
+  collapse library dir [/usr/local/opt/bison/lib] ==> [/usr/local/opt/bison/lib]
+  collapse library dir [/usr/local/opt/gettext/lib] ==> [/usr/local/opt/gettext/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/lapack/lib] ==> [/usr/local/opt/lapack/lib]
+  collapse library dir [/usr/local/opt/open-mpi/lib] ==> [/usr/local/opt/open-mpi/lib]
+  collapse library dir [/usr/local/opt/binutils/lib] ==> [/usr/local/opt/binutils/lib]
+  collapse library dir [/usr/local/opt/boost-python/lib] ==> [/usr/local/opt/boost-python/lib]
+  collapse library dir [/usr/local/opt/boost-mpi/lib] ==> [/usr/local/opt/boost-mpi/lib]
+  collapse library dir [/usr/local/opt/boost/lib] ==> [/usr/local/opt/boost/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/opt/X11/lib] ==> [/opt/X11/lib]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+  collapse library dir [/usr/local/cuda/lib] ==> [/usr/local/cuda/lib]
+  collapse library dir [/usr/local/cuda/nvvm/lib] ==> [/usr/local/cuda/nvvm/lib]
+  collapse library dir [/usr/local/opt/libevent/lib] ==> [/usr/local/opt/libevent/lib]
+  collapse library dir [/usr/local/Cellar/open-mpi/2.1.1/lib] ==> [/usr/local/Cellar/open-mpi/2.1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [mpi]
+  implicit dirs: [/usr/local/opt/opencl/lib;/usr/local/opt/valgrind/lib;/usr/local/opt/suite-sparse/lib;/usr/local/opt/tbb/lib;/usr/local/opt/grt/lib;/usr/local/opt/bison/lib;/usr/local/opt/gettext/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openblas/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/lapack/lib;/usr/local/opt/open-mpi/lib;/usr/local/opt/binutils/lib;/usr/local/opt/boost-python/lib;/usr/local/opt/boost-mpi/lib;/usr/local/opt/boost/lib;/usr/local/opt/llvm/lib;/opt/X11/lib;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7;/usr/local/cuda/lib;/usr/local/cuda/nvvm/lib;/usr/local/opt/libevent/lib;/usr/local/Cellar/open-mpi/2.1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_9a6ba/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_9a6ba.dir/build.make CMakeFiles/cmTC_9a6ba.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9a6ba.dir/testCXXCompiler.cxx.o
+/usr/local/bin/mpicxx    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_9a6ba.dir/testCXXCompiler.cxx.o -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_9a6ba
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9a6ba.dir/link.txt --verbose=1
+/usr/local/bin/mpicxx    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_9a6ba.dir/testCXXCompiler.cxx.o  -o cmTC_9a6ba 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_c6dab/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_c6dab.dir/build.make CMakeFiles/cmTC_c6dab.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o
+/usr/local/bin/mpicxx    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+Linking CXX executable cmTC_c6dab
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6dab.dir/link.txt --verbose=1
+/usr/local/bin/mpicxx    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -v -Wl,-v CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c6dab 
+clang version 5.0.0 (tags/RELEASE_500/final)
+Target: x86_64-apple-darwin17.0.0
+Thread model: posix
+InstalledDir: /usr/local/bin
+Found CUDA installation: /usr/local/cuda, version 8.0
+ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_c6dab -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -L/usr/local/opt/libevent/lib -L/usr/local/Cellar/open-mpi/2.1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o -lmpi -lc++ -lSystem /usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a
+@(#)PROGRAM:ld  PROJECT:ld64-301.1
+configured to support archs: armv6 armv7 armv7s arm64 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em (tvOS)
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+Library search paths:
+	/usr/local/opt/valgrind/lib
+	/usr/local/opt/suite-sparse/lib
+	/usr/local/opt/tbb/lib
+	/usr/local/opt/grt/lib
+	/usr/local/opt/bison/lib
+	/usr/local/opt/gettext/lib
+	/usr/local/opt/zlib/lib
+	/usr/local/opt/openblas/lib
+	/usr/local/opt/openssl@1.1/lib
+	/usr/local/opt/sqlite/lib
+	/usr/local/opt/readline/lib
+	/usr/local/opt/lapack/lib
+	/usr/local/opt/open-mpi/lib
+	/usr/local/opt/binutils/lib
+	/usr/local/opt/boost-python/lib
+	/usr/local/opt/boost-mpi/lib
+	/usr/local/opt/boost/lib
+	/usr/local/opt/llvm/lib
+	/opt/X11/lib
+	/usr/local/Cellar/gcc/7.2.0/lib/gcc/7
+	/usr/local/cuda/lib
+	/usr/local/cuda/nvvm/lib
+	/usr/local/opt/libevent/lib
+	/usr/local/Cellar/open-mpi/2.1.1/lib
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib
+Framework search paths:
+	/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/local/bin/gmake" "cmTC_c6dab/fast"]
+  ignore line: [/usr/local/bin/gmake -f CMakeFiles/cmTC_c6dab.dir/build.make CMakeFiles/cmTC_c6dab.dir/build]
+  ignore line: [gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/usr/local/bin/mpicxx    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Linking CXX executable cmTC_c6dab]
+  ignore line: [/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6dab.dir/link.txt --verbose=1]
+  ignore line: [/usr/local/bin/mpicxx    -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -v -Wl,-v CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_c6dab ]
+  ignore line: [clang version 5.0.0 (tags/RELEASE_500/final)]
+  ignore line: [Target: x86_64-apple-darwin17.0.0]
+  ignore line: [Thread model: posix]
+  ignore line: [InstalledDir: /usr/local/bin]
+  ignore line: [Found CUDA installation: /usr/local/cuda, version 8.0]
+  link line: [ "/usr/bin/ld" -demangle -lto_library /usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib -dynamic -arch x86_64 -macosx_version_min 10.13.0 -syslibroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -o cmTC_c6dab -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7 -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib -L/usr/local/opt/libevent/lib -L/usr/local/Cellar/open-mpi/2.1.1/lib -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o -lmpi -lc++ -lSystem /usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+    arg [/usr/bin/ld] ==> ignore
+    arg [-demangle] ==> ignore
+    arg [-lto_library] ==> ignore, skip following value
+    arg [/usr/local/Cellar/llvm/5.0.0/lib/libLTO.dylib] ==> skip value of -lto_library
+    arg [-dynamic] ==> ignore
+    arg [-arch] ==> ignore
+    arg [x86_64] ==> ignore
+    arg [-macosx_version_min] ==> ignore
+    arg [10.13.0] ==> ignore
+    arg [-syslibroot] ==> ignore
+    arg [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_c6dab] ==> ignore
+    arg [-L/usr/local/opt/opencl/lib] ==> dir [/usr/local/opt/opencl/lib]
+    arg [-L/usr/local/opt/valgrind/lib] ==> dir [/usr/local/opt/valgrind/lib]
+    arg [-L/usr/local/opt/suite-sparse/lib] ==> dir [/usr/local/opt/suite-sparse/lib]
+    arg [-L/usr/local/opt/tbb/lib] ==> dir [/usr/local/opt/tbb/lib]
+    arg [-L/usr/local/opt/grt/lib] ==> dir [/usr/local/opt/grt/lib]
+    arg [-L/usr/local/opt/bison/lib] ==> dir [/usr/local/opt/bison/lib]
+    arg [-L/usr/local/opt/gettext/lib] ==> dir [/usr/local/opt/gettext/lib]
+    arg [-L/usr/local/opt/zlib/lib] ==> dir [/usr/local/opt/zlib/lib]
+    arg [-L/usr/local/opt/openblas/lib] ==> dir [/usr/local/opt/openblas/lib]
+    arg [-L/usr/local/opt/openssl@1.1/lib] ==> dir [/usr/local/opt/openssl@1.1/lib]
+    arg [-L/usr/local/opt/sqlite/lib] ==> dir [/usr/local/opt/sqlite/lib]
+    arg [-L/usr/local/opt/readline/lib] ==> dir [/usr/local/opt/readline/lib]
+    arg [-L/usr/local/opt/lapack/lib] ==> dir [/usr/local/opt/lapack/lib]
+    arg [-L/usr/local/opt/open-mpi/lib] ==> dir [/usr/local/opt/open-mpi/lib]
+    arg [-L/usr/local/opt/binutils/lib] ==> dir [/usr/local/opt/binutils/lib]
+    arg [-L/usr/local/opt/boost-python/lib] ==> dir [/usr/local/opt/boost-python/lib]
+    arg [-L/usr/local/opt/boost-mpi/lib] ==> dir [/usr/local/opt/boost-mpi/lib]
+    arg [-L/usr/local/opt/boost/lib] ==> dir [/usr/local/opt/boost/lib]
+    arg [-L/usr/local/opt/llvm/lib] ==> dir [/usr/local/opt/llvm/lib]
+    arg [-L/opt/X11/lib] ==> dir [/opt/X11/lib]
+    arg [-L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7] ==> dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+    arg [-L/usr/local/cuda/lib] ==> dir [/usr/local/cuda/lib]
+    arg [-L/usr/local/cuda/nvvm/lib] ==> dir [/usr/local/cuda/nvvm/lib]
+    arg [-L/usr/local/opt/libevent/lib] ==> dir [/usr/local/opt/libevent/lib]
+    arg [-L/usr/local/Cellar/open-mpi/2.1.1/lib] ==> dir [/usr/local/Cellar/open-mpi/2.1.1/lib]
+    arg [-search_paths_first] ==> ignore
+    arg [-headerpad_max_install_names] ==> ignore
+    arg [-v] ==> ignore
+    arg [CMakeFiles/cmTC_c6dab.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lmpi] ==> lib [mpi]
+    arg [-lc++] ==> lib [c++]
+    arg [-lSystem] ==> lib [System]
+    arg [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a] ==> lib [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+  Library search paths: [;/usr/local/opt/valgrind/lib;/usr/local/opt/suite-sparse/lib;/usr/local/opt/tbb/lib;/usr/local/opt/grt/lib;/usr/local/opt/bison/lib;/usr/local/opt/gettext/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openblas/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/lapack/lib;/usr/local/opt/open-mpi/lib;/usr/local/opt/binutils/lib;/usr/local/opt/boost-python/lib;/usr/local/opt/boost-mpi/lib;/usr/local/opt/boost/lib;/usr/local/opt/llvm/lib;/opt/X11/lib;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7;/usr/local/cuda/lib;/usr/local/cuda/nvvm/lib;/usr/local/opt/libevent/lib;/usr/local/Cellar/open-mpi/2.1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  Framework search paths: [;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/]
+  remove lib [System]
+  remove lib [/usr/local/Cellar/llvm/5.0.0/lib/clang/5.0.0/lib/darwin/libclang_rt.osx.a]
+  collapse library dir [/usr/local/opt/opencl/lib] ==> [/usr/local/opt/opencl/lib]
+  collapse library dir [/usr/local/opt/valgrind/lib] ==> [/usr/local/opt/valgrind/lib]
+  collapse library dir [/usr/local/opt/suite-sparse/lib] ==> [/usr/local/opt/suite-sparse/lib]
+  collapse library dir [/usr/local/opt/tbb/lib] ==> [/usr/local/opt/tbb/lib]
+  collapse library dir [/usr/local/opt/grt/lib] ==> [/usr/local/opt/grt/lib]
+  collapse library dir [/usr/local/opt/bison/lib] ==> [/usr/local/opt/bison/lib]
+  collapse library dir [/usr/local/opt/gettext/lib] ==> [/usr/local/opt/gettext/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/lapack/lib] ==> [/usr/local/opt/lapack/lib]
+  collapse library dir [/usr/local/opt/open-mpi/lib] ==> [/usr/local/opt/open-mpi/lib]
+  collapse library dir [/usr/local/opt/binutils/lib] ==> [/usr/local/opt/binutils/lib]
+  collapse library dir [/usr/local/opt/boost-python/lib] ==> [/usr/local/opt/boost-python/lib]
+  collapse library dir [/usr/local/opt/boost-mpi/lib] ==> [/usr/local/opt/boost-mpi/lib]
+  collapse library dir [/usr/local/opt/boost/lib] ==> [/usr/local/opt/boost/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/opt/X11/lib] ==> [/opt/X11/lib]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+  collapse library dir [/usr/local/cuda/lib] ==> [/usr/local/cuda/lib]
+  collapse library dir [/usr/local/cuda/nvvm/lib] ==> [/usr/local/cuda/nvvm/lib]
+  collapse library dir [/usr/local/opt/libevent/lib] ==> [/usr/local/opt/libevent/lib]
+  collapse library dir [/usr/local/Cellar/open-mpi/2.1.1/lib] ==> [/usr/local/Cellar/open-mpi/2.1.1/lib]
+  collapse library dir [/usr/local/opt/valgrind/lib] ==> [/usr/local/opt/valgrind/lib]
+  collapse library dir [/usr/local/opt/suite-sparse/lib] ==> [/usr/local/opt/suite-sparse/lib]
+  collapse library dir [/usr/local/opt/tbb/lib] ==> [/usr/local/opt/tbb/lib]
+  collapse library dir [/usr/local/opt/grt/lib] ==> [/usr/local/opt/grt/lib]
+  collapse library dir [/usr/local/opt/bison/lib] ==> [/usr/local/opt/bison/lib]
+  collapse library dir [/usr/local/opt/gettext/lib] ==> [/usr/local/opt/gettext/lib]
+  collapse library dir [/usr/local/opt/zlib/lib] ==> [/usr/local/opt/zlib/lib]
+  collapse library dir [/usr/local/opt/openblas/lib] ==> [/usr/local/opt/openblas/lib]
+  collapse library dir [/usr/local/opt/openssl@1.1/lib] ==> [/usr/local/opt/openssl@1.1/lib]
+  collapse library dir [/usr/local/opt/sqlite/lib] ==> [/usr/local/opt/sqlite/lib]
+  collapse library dir [/usr/local/opt/readline/lib] ==> [/usr/local/opt/readline/lib]
+  collapse library dir [/usr/local/opt/lapack/lib] ==> [/usr/local/opt/lapack/lib]
+  collapse library dir [/usr/local/opt/open-mpi/lib] ==> [/usr/local/opt/open-mpi/lib]
+  collapse library dir [/usr/local/opt/binutils/lib] ==> [/usr/local/opt/binutils/lib]
+  collapse library dir [/usr/local/opt/boost-python/lib] ==> [/usr/local/opt/boost-python/lib]
+  collapse library dir [/usr/local/opt/boost-mpi/lib] ==> [/usr/local/opt/boost-mpi/lib]
+  collapse library dir [/usr/local/opt/boost/lib] ==> [/usr/local/opt/boost/lib]
+  collapse library dir [/usr/local/opt/llvm/lib] ==> [/usr/local/opt/llvm/lib]
+  collapse library dir [/opt/X11/lib] ==> [/opt/X11/lib]
+  collapse library dir [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7] ==> [/usr/local/Cellar/gcc/7.2.0/lib/gcc/7]
+  collapse library dir [/usr/local/cuda/lib] ==> [/usr/local/cuda/lib]
+  collapse library dir [/usr/local/cuda/nvvm/lib] ==> [/usr/local/cuda/nvvm/lib]
+  collapse library dir [/usr/local/opt/libevent/lib] ==> [/usr/local/opt/libevent/lib]
+  collapse library dir [/usr/local/Cellar/open-mpi/2.1.1/lib] ==> [/usr/local/Cellar/open-mpi/2.1.1/lib]
+  collapse library dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  collapse framework dir [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/] ==> [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+  implicit libs: [mpi;c++]
+  implicit dirs: [/usr/local/opt/opencl/lib;/usr/local/opt/valgrind/lib;/usr/local/opt/suite-sparse/lib;/usr/local/opt/tbb/lib;/usr/local/opt/grt/lib;/usr/local/opt/bison/lib;/usr/local/opt/gettext/lib;/usr/local/opt/zlib/lib;/usr/local/opt/openblas/lib;/usr/local/opt/openssl@1.1/lib;/usr/local/opt/sqlite/lib;/usr/local/opt/readline/lib;/usr/local/opt/lapack/lib;/usr/local/opt/open-mpi/lib;/usr/local/opt/binutils/lib;/usr/local/opt/boost-python/lib;/usr/local/opt/boost-mpi/lib;/usr/local/opt/boost/lib;/usr/local/opt/llvm/lib;/opt/X11/lib;/usr/local/Cellar/gcc/7.2.0/lib/gcc/7;/usr/local/cuda/lib;/usr/local/cuda/nvvm/lib;/usr/local/opt/libevent/lib;/usr/local/Cellar/open-mpi/2.1.1/lib;/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib]
+  implicit fwks: [/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks]
+
+
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_STD_CPP11_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_cf474/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_cf474.dir/build.make CMakeFiles/cmTC_cf474.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cf474.dir/src.cxx.o
+/usr/local/bin/mpicxx    -DLIBOMP_HAVE_STD_CPP11_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -std=c++11 -o CMakeFiles/cmTC_cf474.dir/src.cxx.o -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_cf474
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cf474.dir/link.txt --verbose=1
+/usr/local/bin/mpicxx   -DLIBOMP_HAVE_STD_CPP11_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_cf474.dir/src.cxx.o  -o cmTC_cf474 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_EXCEPTIONS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_0db54/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_0db54.dir/build.make CMakeFiles/cmTC_0db54.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_0db54.dir/src.cxx.o
+/usr/local/bin/mpicxx    -DLIBOMP_HAVE_FNO_EXCEPTIONS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -fno-exceptions -o CMakeFiles/cmTC_0db54.dir/src.cxx.o -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_0db54
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0db54.dir/link.txt --verbose=1
+/usr/local/bin/mpicxx   -DLIBOMP_HAVE_FNO_EXCEPTIONS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_0db54.dir/src.cxx.o  -o cmTC_0db54 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test LIBOMP_HAVE_FNO_RTTI_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_e1ab0/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_e1ab0.dir/build.make CMakeFiles/cmTC_e1ab0.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e1ab0.dir/src.cxx.o
+/usr/local/bin/mpicxx    -DLIBOMP_HAVE_FNO_RTTI_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -fno-rtti -o CMakeFiles/cmTC_e1ab0.dir/src.cxx.o -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.cxx
+Linking CXX executable cmTC_e1ab0
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1ab0.dir/link.txt --verbose=1
+/usr/local/bin/mpicxx   -DLIBOMP_HAVE_FNO_RTTI_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_e1ab0.dir/src.cxx.o  -o cmTC_e1ab0 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_X_CPP_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_77d31/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_77d31.dir/build.make CMakeFiles/cmTC_77d31.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_77d31.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_X_CPP_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -x c++ -o CMakeFiles/cmTC_77d31.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_77d31
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77d31.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_X_CPP_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_77d31.dir/src.c.o  -o cmTC_77d31 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WERROR_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_af16b/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_af16b.dir/build.make CMakeFiles/cmTC_af16b.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_af16b.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Werror -o CMakeFiles/cmTC_af16b.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_af16b
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af16b.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WERROR_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_af16b.dir/src.c.o  -o cmTC_af16b 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_FUNCTION_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_fa0fb/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_fa0fb.dir/build.make CMakeFiles/cmTC_fa0fb.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fa0fb.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_FUNCTION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wunused-function -o CMakeFiles/cmTC_fa0fb.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_fa0fb
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fa0fb.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_FUNCTION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_fa0fb.dir/src.c.o  -o cmTC_fa0fb 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_LOCAL_TYPEDEF_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_4f5e4/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_4f5e4.dir/build.make CMakeFiles/cmTC_4f5e4.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4f5e4.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_LOCAL_TYPEDEF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wunused-local-typedef -o CMakeFiles/cmTC_4f5e4.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4f5e4
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4f5e4.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_LOCAL_TYPEDEF_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_4f5e4.dir/src.c.o  -o cmTC_4f5e4 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_VALUE_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_348c8/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_348c8.dir/build.make CMakeFiles/cmTC_348c8.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_348c8.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_VALUE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wunused-value -o CMakeFiles/cmTC_348c8.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_348c8
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_348c8.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_VALUE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_348c8.dir/src.c.o  -o cmTC_348c8 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNUSED_VARIABLE_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_0521b/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_0521b.dir/build.make CMakeFiles/cmTC_0521b.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0521b.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_VARIABLE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wunused-variable -o CMakeFiles/cmTC_0521b.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_0521b
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0521b.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNUSED_VARIABLE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_0521b.dir/src.c.o  -o cmTC_0521b 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_SWITCH_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_26bb3/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_26bb3.dir/build.make CMakeFiles/cmTC_26bb3.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_26bb3.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_SWITCH_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wswitch -o CMakeFiles/cmTC_26bb3.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_26bb3
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_26bb3.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_SWITCH_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_26bb3.dir/src.c.o  -o cmTC_26bb3 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_3d61b/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_3d61b.dir/build.make CMakeFiles/cmTC_3d61b.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d61b.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wcovered-switch-default -o CMakeFiles/cmTC_3d61b.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3d61b
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d61b.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_COVERED_SWITCH_DEFAULT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_3d61b.dir/src.c.o  -o cmTC_3d61b 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_DEPRECATED_REGISTER_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_05c38/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_05c38.dir/build.make CMakeFiles/cmTC_05c38.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_05c38.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_DEPRECATED_REGISTER_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wdeprecated-register -o CMakeFiles/cmTC_05c38.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_05c38
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_05c38.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_DEPRECATED_REGISTER_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_05c38.dir/src.c.o  -o cmTC_05c38 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_SIGN_COMPARE_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_3ef7b/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_3ef7b.dir/build.make CMakeFiles/cmTC_3ef7b.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3ef7b.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_SIGN_COMPARE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wsign-compare -o CMakeFiles/cmTC_3ef7b.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3ef7b
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3ef7b.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_SIGN_COMPARE_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_3ef7b.dir/src.c.o  -o cmTC_3ef7b 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_GNU_ANONYMOUS_STRUCT_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_4b44d/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_4b44d.dir/build.make CMakeFiles/cmTC_4b44d.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4b44d.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_GNU_ANONYMOUS_STRUCT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wgnu-anonymous-struct -o CMakeFiles/cmTC_4b44d.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_4b44d
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4b44d.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_GNU_ANONYMOUS_STRUCT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_4b44d.dir/src.c.o  -o cmTC_4b44d 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_UNKNOWN_PRAGMAS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_ded66/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_ded66.dir/build.make CMakeFiles/cmTC_ded66.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ded66.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNKNOWN_PRAGMAS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wunknown-pragmas -o CMakeFiles/cmTC_ded66.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_ded66
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ded66.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_UNKNOWN_PRAGMAS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_ded66.dir/src.c.o  -o cmTC_ded66 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_MISSING_FIELD_INITIALIZERS_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_a7061/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_a7061.dir/build.make CMakeFiles/cmTC_a7061.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7061.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_MISSING_FIELD_INITIALIZERS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wmissing-field-initializers -o CMakeFiles/cmTC_a7061.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a7061
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a7061.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_MISSING_FIELD_INITIALIZERS_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_a7061.dir/src.c.o  -o cmTC_a7061 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_MISSING_BRACES_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_67271/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_67271.dir/build.make CMakeFiles/cmTC_67271.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_67271.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_MISSING_BRACES_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wmissing-braces -o CMakeFiles/cmTC_67271.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_67271
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67271.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_MISSING_BRACES_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_67271.dir/src.c.o  -o cmTC_67271 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_COMMENT_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_f3b3e/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_f3b3e.dir/build.make CMakeFiles/cmTC_f3b3e.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f3b3e.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_COMMENT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wcomment -o CMakeFiles/cmTC_f3b3e.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_f3b3e
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f3b3e.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_COMMENT_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_f3b3e.dir/src.c.o  -o cmTC_f3b3e 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_SELF_ASSIGN_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_87740/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_87740.dir/build.make CMakeFiles/cmTC_87740.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_87740.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_SELF_ASSIGN_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wself-assign -o CMakeFiles/cmTC_87740.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_87740
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87740.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_SELF_ASSIGN_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_87740.dir/src.c.o  -o cmTC_87740 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_VLA_EXTENSION_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_673cc/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_673cc.dir/build.make CMakeFiles/cmTC_673cc.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_673cc.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_VLA_EXTENSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wvla-extension -o CMakeFiles/cmTC_673cc.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_673cc
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_673cc.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_VLA_EXTENSION_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_673cc.dir/src.c.o  -o cmTC_673cc 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_WNO_FORMAT_PEDANTIC_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_72bdb/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_72bdb.dir/build.make CMakeFiles/cmTC_72bdb.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_72bdb.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_FORMAT_PEDANTIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -Wformat-pedantic -o CMakeFiles/cmTC_72bdb.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_72bdb
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72bdb.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WNO_FORMAT_PEDANTIC_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_72bdb.dir/src.c.o  -o cmTC_72bdb 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_MSSE2_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_bc3ea/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_bc3ea.dir/build.make CMakeFiles/cmTC_bc3ea.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bc3ea.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_MSSE2_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -msse2 -o CMakeFiles/cmTC_bc3ea.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_bc3ea
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bc3ea.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_MSSE2_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_bc3ea.dir/src.c.o  -o cmTC_bc3ea 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test LIBOMP_HAVE_FTLS_MODEL_FLAG succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_a70a4/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_a70a4.dir/build.make CMakeFiles/cmTC_a70a4.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a70a4.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_FTLS_MODEL_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -ftls-model=initial-exec -o CMakeFiles/cmTC_a70a4.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_a70a4
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a70a4.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_FTLS_MODEL_FLAG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_a70a4.dir/src.c.o  -o cmTC_a70a4 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(void) { return 0; }
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_2266e/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_2266e.dir/build.make CMakeFiles/cmTC_2266e.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2266e.dir/CheckIncludeFile.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_2266e.dir/CheckIncludeFile.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+Linking C executable cmTC_2266e
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2266e.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_2266e.dir/CheckIncludeFile.c.o  -o cmTC_2266e 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_3bf5d/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_3bf5d.dir/build.make CMakeFiles/cmTC_3bf5d.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3bf5d.dir/CheckSymbolExists.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_3bf5d.dir/CheckSymbolExists.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_3bf5d
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bf5d.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_3bf5d.dir/CheckSymbolExists.c.o  -o cmTC_3bf5d 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+File /Users/dojo/openmp/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test LIBOMP_HAVE___BUILTIN_FRAME_ADDRESS succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_3695e/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_3695e.dir/build.make CMakeFiles/cmTC_3695e.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3695e.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE___BUILTIN_FRAME_ADDRESS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_3695e.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_3695e
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3695e.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE___BUILTIN_FRAME_ADDRESS -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_3695e.dir/src.c.o  -o cmTC_3695e 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main(int argc, char** argv) {
+  void* p = __builtin_frame_address(0);
+  return 0;}
+Performing C SOURCE FILE Test LIBOMP_HAVE_WEAK_ATTRIBUTE succeeded with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_82a1d/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_82a1d.dir/build.make CMakeFiles/cmTC_82a1d.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_82a1d.dir/src.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WEAK_ATTRIBUTE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_82a1d.dir/src.c.o   -c /Users/dojo/openmp/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_82a1d
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_82a1d.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DLIBOMP_HAVE_WEAK_ATTRIBUTE -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_82a1d.dir/src.c.o  -o cmTC_82a1d 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+Source file was:
+__attribute__ ((weak)) int foo(int a) { return a*a; }
+  int main(int argc, char** argv) {
+  return foo(argc);}
+Determining if the function sqrt exists in the m passed with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_d714e/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_d714e.dir/build.make CMakeFiles/cmTC_d714e.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d714e.dir/CheckFunctionExists.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_d714e.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CheckFunctionExists.c
+/usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CheckFunctionExists.c:7:3: warning: incompatible redeclaration of library function 'sqrt' [-Wincompatible-library-redeclaration]
+  CHECK_FUNCTION_EXISTS(void);
+  ^
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+/usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CheckFunctionExists.c:7:3: note: 'sqrt' is a builtin with type 'double (double)'
+<command line>:1:31: note: expanded from here
+#define CHECK_FUNCTION_EXISTS sqrt
+                              ^
+1 warning generated.
+Linking C executable cmTC_d714e
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d714e.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DCHECK_FUNCTION_EXISTS=sqrt -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_d714e.dir/CheckFunctionExists.c.o  -o cmTC_d714e -lm 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+
+Determining if the function __atomic_load_1 exists passed with the following output:
+Change Dir: /Users/dojo/openmp/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/local/bin/gmake" "cmTC_c6291/fast"
+/usr/local/bin/gmake -f CMakeFiles/cmTC_c6291.dir/build.make CMakeFiles/cmTC_c6291.dir/build
+gmake[1]: Entering directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6291.dir/CheckFunctionExists.c.o
+/usr/local/bin/mpicc   -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DCHECK_FUNCTION_EXISTS=__atomic_load_1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13   -o CMakeFiles/cmTC_c6291.dir/CheckFunctionExists.c.o   -c /usr/local/Cellar/cmake/3.9.2/share/cmake/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c6291
+/usr/local/Cellar/cmake/3.9.2/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6291.dir/link.txt --verbose=1
+/usr/local/bin/mpicc -fomit-frame-pointer -funroll-loops  -ffast-math -Ofast -fno-signed-zeros -ffp-contract=fast -mmmx -msse -flto -maes -march=native -DCHECK_FUNCTION_EXISTS=__atomic_load_1 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk -mmacosx-version-min=10.13 -Wl,-search_paths_first -Wl,-headerpad_max_install_names -L/usr/local/opt/opencl/lib -L/usr/local/opt/valgrind/lib -L/usr/local/opt/suite-sparse/lib -L/usr/local/opt/tbb/lib -L/usr/local/opt/grt/lib -L/usr/local/opt/bison/lib -L/usr/local/opt/gettext/lib -L/usr/local/opt/zlib/lib -L/usr/local/opt/openblas/lib -L/usr/local/opt/openssl@1.1/lib -L/usr/local/opt/sqlite/lib -L/usr/local/opt/readline/lib -L/usr/local/opt/lapack/lib -L/usr/local/opt/open-mpi/lib -L/usr/local/opt/binutils/lib -L/usr/local/opt/boost-python/lib -L/usr/local/opt/boost-mpi/lib -L/usr/local/opt/boost/lib -L/usr/local/opt/llvm/lib -L/opt/X11/lib -L/usr/local/Cellar/gcc/7.2.0/lib/gcc/7  -L/usr/local/cuda/lib -L/usr/local/cuda/nvvm/lib  CMakeFiles/cmTC_c6291.dir/CheckFunctionExists.c.o  -o cmTC_c6291 
+ld: warning: directory not found for option '-L/usr/local/opt/opencl/lib'
+gmake[1]: Leaving directory '/Users/dojo/openmp/CMakeFiles/CMakeTmp'
+
+

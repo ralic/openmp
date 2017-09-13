@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime
+# Install script for directory: /Users/dojo/openmp/runtime
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,8 +29,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/cmake_install.cmake")
-  include("/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/test/cmake_install.cmake")
+  include("/Users/dojo/openmp/runtime/src/cmake_install.cmake")
+  include("/Users/dojo/openmp/runtime/test/cmake_install.cmake")
 
 endif()
 

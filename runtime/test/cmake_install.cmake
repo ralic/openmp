@@ -1,4 +1,4 @@
-# Install script for directory: /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/test
+# Install script for directory: /Users/dojo/openmp/runtime/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

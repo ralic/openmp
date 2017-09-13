@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.9.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_SOURCE_DIR = /Users/dojo/openmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_BINARY_DIR = /Users/dojo/openmp
 
 # Utility rule file for libomp-test-instr.
 
@@ -58,10 +58,10 @@ runtime/src/CMakeFiles/libomp-test-instr: runtime/src/test-instr/.success
 
 runtime/src/test-instr/.success: runtime/src/libomp.dylib
 runtime/src/test-instr/.success: runtime/tools/check-instruction-set.pl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test-instr/.success"
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.1/bin/cmake -E make_directory /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/test-instr
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/bin/perl /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/tools/check-instruction-set.pl --os=mac --arch=32e --show --mic-arch=knc /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/libomp.dylib
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.1/bin/cmake -E touch test-instr/.success
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test-instr/.success"
+	cd /Users/dojo/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E make_directory /Users/dojo/openmp/runtime/src/test-instr
+	cd /Users/dojo/openmp/runtime/src && /usr/local/bin/perl /Users/dojo/openmp/runtime/tools/check-instruction-set.pl --os=mac --arch=32e --show --mic-arch=knc /Users/dojo/openmp/runtime/src/libomp.dylib
+	cd /Users/dojo/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E touch test-instr/.success
 
 libomp-test-instr: runtime/src/CMakeFiles/libomp-test-instr
 libomp-test-instr: runtime/src/test-instr/.success
@@ -75,10 +75,10 @@ runtime/src/CMakeFiles/libomp-test-instr.dir/build: libomp-test-instr
 .PHONY : runtime/src/CMakeFiles/libomp-test-instr.dir/build
 
 runtime/src/CMakeFiles/libomp-test-instr.dir/clean:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-test-instr.dir/cmake_clean.cmake
+	cd /Users/dojo/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-test-instr.dir/cmake_clean.cmake
 .PHONY : runtime/src/CMakeFiles/libomp-test-instr.dir/clean
 
 runtime/src/CMakeFiles/libomp-test-instr.dir/depend:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/CMakeFiles/libomp-test-instr.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dojo/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp/runtime/src/CMakeFiles/libomp-test-instr.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : runtime/src/CMakeFiles/libomp-test-instr.dir/depend
 

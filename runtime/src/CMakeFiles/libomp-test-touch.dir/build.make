@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.9.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_SOURCE_DIR = /Users/dojo/openmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_BINARY_DIR = /Users/dojo/openmp
 
 # Utility rule file for libomp-test-touch.
 
@@ -58,12 +58,12 @@ runtime/src/CMakeFiles/libomp-test-touch: runtime/src/test-touch-rt/.success
 
 runtime/src/test-touch-rt/.success: runtime/src/test-touch.c
 runtime/src/test-touch-rt/.success: runtime/src/libomp.dylib
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test-touch-rt/.success, test-touch-rt/test-touch, test-touch-rt/test-touch.o"
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.1/bin/cmake -E make_directory /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/test-touch-rt
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f test-touch-rt/*
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -o test-touch-rt/test-touch /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/test-touch.c /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/libomp.dylib
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /bin/sh -c "DYLD_LIBRARY_PATH=.:/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src: KMP_VERSION=1 test-touch-rt/test-touch"
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.1/bin/cmake -E touch test-touch-rt/.success
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating test-touch-rt/.success, test-touch-rt/test-touch, test-touch-rt/test-touch.o"
+	cd /Users/dojo/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E make_directory /Users/dojo/openmp/runtime/src/test-touch-rt
+	cd /Users/dojo/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E remove -f test-touch-rt/*
+	cd /Users/dojo/openmp/runtime/src && /usr/local/bin/mpicc -o test-touch-rt/test-touch /Users/dojo/openmp/runtime/src/test-touch.c /Users/dojo/openmp/runtime/src/libomp.dylib
+	cd /Users/dojo/openmp/runtime/src && /bin/sh -c "DYLD_LIBRARY_PATH=.:/Users/dojo/openmp/runtime/src: KMP_VERSION=1 test-touch-rt/test-touch"
+	cd /Users/dojo/openmp/runtime/src && /usr/local/Cellar/cmake/3.9.2/bin/cmake -E touch test-touch-rt/.success
 
 runtime/src/test-touch-rt/test-touch: runtime/src/test-touch-rt/.success
 	@$(CMAKE_COMMAND) -E touch_nocreate runtime/src/test-touch-rt/test-touch
@@ -85,10 +85,10 @@ runtime/src/CMakeFiles/libomp-test-touch.dir/build: libomp-test-touch
 .PHONY : runtime/src/CMakeFiles/libomp-test-touch.dir/build
 
 runtime/src/CMakeFiles/libomp-test-touch.dir/clean:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-test-touch.dir/cmake_clean.cmake
+	cd /Users/dojo/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-test-touch.dir/cmake_clean.cmake
 .PHONY : runtime/src/CMakeFiles/libomp-test-touch.dir/clean
 
 runtime/src/CMakeFiles/libomp-test-touch.dir/depend:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/CMakeFiles/libomp-test-touch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dojo/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp/runtime/src/CMakeFiles/libomp-test-touch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : runtime/src/CMakeFiles/libomp-test-touch.dir/depend
 

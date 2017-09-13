@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.9.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_SOURCE_DIR = /Users/dojo/openmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_BINARY_DIR = /Users/dojo/openmp
 
 # Utility rule file for libomp-needed-headers.
 
@@ -59,13 +59,13 @@ runtime/src/CMakeFiles/libomp-needed-headers: runtime/src/kmp_i18n_default.inc
 
 runtime/src/kmp_i18n_id.inc: runtime/src/i18n/en_US.txt
 runtime/src/kmp_i18n_id.inc: runtime/tools/message-converter.pl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating kmp_i18n_id.inc"
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/bin/perl /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/tools/message-converter.pl --os=mac --prefix=kmp_i18n --enum=kmp_i18n_id.inc /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/i18n/en_US.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating kmp_i18n_id.inc"
+	cd /Users/dojo/openmp/runtime/src && /usr/local/bin/perl /Users/dojo/openmp/runtime/tools/message-converter.pl --os=mac --prefix=kmp_i18n --enum=kmp_i18n_id.inc /Users/dojo/openmp/runtime/src/i18n/en_US.txt
 
 runtime/src/kmp_i18n_default.inc: runtime/src/i18n/en_US.txt
 runtime/src/kmp_i18n_default.inc: runtime/tools/message-converter.pl
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating kmp_i18n_default.inc"
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && /usr/local/bin/perl /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/tools/message-converter.pl --os=mac --prefix=kmp_i18n --default=kmp_i18n_default.inc /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/i18n/en_US.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating kmp_i18n_default.inc"
+	cd /Users/dojo/openmp/runtime/src && /usr/local/bin/perl /Users/dojo/openmp/runtime/tools/message-converter.pl --os=mac --prefix=kmp_i18n --default=kmp_i18n_default.inc /Users/dojo/openmp/runtime/src/i18n/en_US.txt
 
 libomp-needed-headers: runtime/src/CMakeFiles/libomp-needed-headers
 libomp-needed-headers: runtime/src/kmp_i18n_id.inc
@@ -80,10 +80,10 @@ runtime/src/CMakeFiles/libomp-needed-headers.dir/build: libomp-needed-headers
 .PHONY : runtime/src/CMakeFiles/libomp-needed-headers.dir/build
 
 runtime/src/CMakeFiles/libomp-needed-headers.dir/clean:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-needed-headers.dir/cmake_clean.cmake
+	cd /Users/dojo/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-needed-headers.dir/cmake_clean.cmake
 .PHONY : runtime/src/CMakeFiles/libomp-needed-headers.dir/clean
 
 runtime/src/CMakeFiles/libomp-needed-headers.dir/depend:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/CMakeFiles/libomp-needed-headers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dojo/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp/runtime/src/CMakeFiles/libomp-needed-headers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : runtime/src/CMakeFiles/libomp-needed-headers.dir/depend
 

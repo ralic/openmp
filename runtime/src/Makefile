@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.9.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_SOURCE_DIR = /Users/dojo/openmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_BINARY_DIR = /Users/dojo/openmp
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,31 +59,31 @@ CMAKE_BINARY_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.9.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.9.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/usr/local/Cellar/cmake/3.9.1/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.9.2/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.9.1/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.9.2/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/usr/local/Cellar/cmake/3.9.1/bin/cmake -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.9.2/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.9.1/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.9.2/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -104,7 +104,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.9.1/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.9.2/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -115,25 +115,25 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.9.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.9.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/usr/local/Cellar/cmake/3.9.1/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/usr/local/Cellar/cmake/3.9.2/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/CMakeFiles/progress.marks
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	cd /Users/dojo/openmp && $(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles /Users/dojo/openmp/runtime/src/CMakeFiles/progress.marks
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/clean
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/preinstall
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/preinstall
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /Users/dojo/openmp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 runtime/src/CMakeFiles/libomp-test-touch.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-touch.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-touch.dir/rule
 .PHONY : runtime/src/CMakeFiles/libomp-test-touch.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ libomp-test-touch: runtime/src/CMakeFiles/libomp-test-touch.dir/rule
 
 # fast build rule for target.
 libomp-test-touch/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-touch.dir/build.make runtime/src/CMakeFiles/libomp-test-touch.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-touch.dir/build.make runtime/src/CMakeFiles/libomp-test-touch.dir/build
 .PHONY : libomp-test-touch/fast
 
 # Convenience name for target.
 runtime/src/CMakeFiles/libomp-test-deps.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-deps.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-deps.dir/rule
 .PHONY : runtime/src/CMakeFiles/libomp-test-deps.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ libomp-test-deps: runtime/src/CMakeFiles/libomp-test-deps.dir/rule
 
 # fast build rule for target.
 libomp-test-deps/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-deps.dir/build.make runtime/src/CMakeFiles/libomp-test-deps.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-deps.dir/build.make runtime/src/CMakeFiles/libomp-test-deps.dir/build
 .PHONY : libomp-test-deps/fast
 
 # Convenience name for target.
 runtime/src/CMakeFiles/libomp-micro-tests.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-micro-tests.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-micro-tests.dir/rule
 .PHONY : runtime/src/CMakeFiles/libomp-micro-tests.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ libomp-micro-tests: runtime/src/CMakeFiles/libomp-micro-tests.dir/rule
 
 # fast build rule for target.
 libomp-micro-tests/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-micro-tests.dir/build.make runtime/src/CMakeFiles/libomp-micro-tests.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-micro-tests.dir/build.make runtime/src/CMakeFiles/libomp-micro-tests.dir/build
 .PHONY : libomp-micro-tests/fast
 
 # Convenience name for target.
 runtime/src/CMakeFiles/libomp-test-execstack.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-execstack.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-execstack.dir/rule
 .PHONY : runtime/src/CMakeFiles/libomp-test-execstack.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ libomp-test-execstack: runtime/src/CMakeFiles/libomp-test-execstack.dir/rule
 
 # fast build rule for target.
 libomp-test-execstack/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-execstack.dir/build.make runtime/src/CMakeFiles/libomp-test-execstack.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-execstack.dir/build.make runtime/src/CMakeFiles/libomp-test-execstack.dir/build
 .PHONY : libomp-test-execstack/fast
 
 # Convenience name for target.
 runtime/src/CMakeFiles/libomp-test-relo.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-relo.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-relo.dir/rule
 .PHONY : runtime/src/CMakeFiles/libomp-test-relo.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ libomp-test-relo: runtime/src/CMakeFiles/libomp-test-relo.dir/rule
 
 # fast build rule for target.
 libomp-test-relo/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-relo.dir/build.make runtime/src/CMakeFiles/libomp-test-relo.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-relo.dir/build.make runtime/src/CMakeFiles/libomp-test-relo.dir/build
 .PHONY : libomp-test-relo/fast
 
 # Convenience name for target.
 runtime/src/CMakeFiles/omp.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/omp.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/omp.dir/rule
 .PHONY : runtime/src/CMakeFiles/omp.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ omp: runtime/src/CMakeFiles/omp.dir/rule
 
 # fast build rule for target.
 omp/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/build
 .PHONY : omp/fast
 
 # Convenience name for target.
 runtime/src/CMakeFiles/libomp-test-instr.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-instr.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-instr.dir/rule
 .PHONY : runtime/src/CMakeFiles/libomp-test-instr.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ libomp-test-instr: runtime/src/CMakeFiles/libomp-test-instr.dir/rule
 
 # fast build rule for target.
 libomp-test-instr/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-instr.dir/build.make runtime/src/CMakeFiles/libomp-test-instr.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-test-instr.dir/build.make runtime/src/CMakeFiles/libomp-test-instr.dir/build
 .PHONY : libomp-test-instr/fast
 
 # Convenience name for target.
 runtime/src/CMakeFiles/libomp-needed-headers.dir/rule:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-needed-headers.dir/rule
+	cd /Users/dojo/openmp && $(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-needed-headers.dir/rule
 .PHONY : runtime/src/CMakeFiles/libomp-needed-headers.dir/rule
 
 # Convenience name for target.
@@ -273,7 +273,7 @@ libomp-needed-headers: runtime/src/CMakeFiles/libomp-needed-headers.dir/rule
 
 # fast build rule for target.
 libomp-needed-headers/fast:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-needed-headers.dir/build.make runtime/src/CMakeFiles/libomp-needed-headers.dir/build
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/libomp-needed-headers.dir/build.make runtime/src/CMakeFiles/libomp-needed-headers.dir/build
 .PHONY : libomp-needed-headers/fast
 
 kmp_affinity.o: kmp_affinity.cpp.o
@@ -282,7 +282,7 @@ kmp_affinity.o: kmp_affinity.cpp.o
 
 # target to build an object file
 kmp_affinity.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_affinity.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_affinity.cpp.o
 .PHONY : kmp_affinity.cpp.o
 
 kmp_affinity.i: kmp_affinity.cpp.i
@@ -291,7 +291,7 @@ kmp_affinity.i: kmp_affinity.cpp.i
 
 # target to preprocess a source file
 kmp_affinity.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_affinity.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_affinity.cpp.i
 .PHONY : kmp_affinity.cpp.i
 
 kmp_affinity.s: kmp_affinity.cpp.s
@@ -300,7 +300,7 @@ kmp_affinity.s: kmp_affinity.cpp.s
 
 # target to generate assembly for a file
 kmp_affinity.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_affinity.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_affinity.cpp.s
 .PHONY : kmp_affinity.cpp.s
 
 kmp_alloc.o: kmp_alloc.cpp.o
@@ -309,7 +309,7 @@ kmp_alloc.o: kmp_alloc.cpp.o
 
 # target to build an object file
 kmp_alloc.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_alloc.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_alloc.cpp.o
 .PHONY : kmp_alloc.cpp.o
 
 kmp_alloc.i: kmp_alloc.cpp.i
@@ -318,7 +318,7 @@ kmp_alloc.i: kmp_alloc.cpp.i
 
 # target to preprocess a source file
 kmp_alloc.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_alloc.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_alloc.cpp.i
 .PHONY : kmp_alloc.cpp.i
 
 kmp_alloc.s: kmp_alloc.cpp.s
@@ -327,7 +327,7 @@ kmp_alloc.s: kmp_alloc.cpp.s
 
 # target to generate assembly for a file
 kmp_alloc.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_alloc.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_alloc.cpp.s
 .PHONY : kmp_alloc.cpp.s
 
 kmp_atomic.o: kmp_atomic.cpp.o
@@ -336,7 +336,7 @@ kmp_atomic.o: kmp_atomic.cpp.o
 
 # target to build an object file
 kmp_atomic.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_atomic.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_atomic.cpp.o
 .PHONY : kmp_atomic.cpp.o
 
 kmp_atomic.i: kmp_atomic.cpp.i
@@ -345,7 +345,7 @@ kmp_atomic.i: kmp_atomic.cpp.i
 
 # target to preprocess a source file
 kmp_atomic.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_atomic.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_atomic.cpp.i
 .PHONY : kmp_atomic.cpp.i
 
 kmp_atomic.s: kmp_atomic.cpp.s
@@ -354,7 +354,7 @@ kmp_atomic.s: kmp_atomic.cpp.s
 
 # target to generate assembly for a file
 kmp_atomic.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_atomic.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_atomic.cpp.s
 .PHONY : kmp_atomic.cpp.s
 
 kmp_barrier.o: kmp_barrier.cpp.o
@@ -363,7 +363,7 @@ kmp_barrier.o: kmp_barrier.cpp.o
 
 # target to build an object file
 kmp_barrier.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_barrier.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_barrier.cpp.o
 .PHONY : kmp_barrier.cpp.o
 
 kmp_barrier.i: kmp_barrier.cpp.i
@@ -372,7 +372,7 @@ kmp_barrier.i: kmp_barrier.cpp.i
 
 # target to preprocess a source file
 kmp_barrier.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_barrier.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_barrier.cpp.i
 .PHONY : kmp_barrier.cpp.i
 
 kmp_barrier.s: kmp_barrier.cpp.s
@@ -381,7 +381,7 @@ kmp_barrier.s: kmp_barrier.cpp.s
 
 # target to generate assembly for a file
 kmp_barrier.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_barrier.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_barrier.cpp.s
 .PHONY : kmp_barrier.cpp.s
 
 kmp_cancel.o: kmp_cancel.cpp.o
@@ -390,7 +390,7 @@ kmp_cancel.o: kmp_cancel.cpp.o
 
 # target to build an object file
 kmp_cancel.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_cancel.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_cancel.cpp.o
 .PHONY : kmp_cancel.cpp.o
 
 kmp_cancel.i: kmp_cancel.cpp.i
@@ -399,7 +399,7 @@ kmp_cancel.i: kmp_cancel.cpp.i
 
 # target to preprocess a source file
 kmp_cancel.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_cancel.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_cancel.cpp.i
 .PHONY : kmp_cancel.cpp.i
 
 kmp_cancel.s: kmp_cancel.cpp.s
@@ -408,7 +408,7 @@ kmp_cancel.s: kmp_cancel.cpp.s
 
 # target to generate assembly for a file
 kmp_cancel.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_cancel.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_cancel.cpp.s
 .PHONY : kmp_cancel.cpp.s
 
 kmp_csupport.o: kmp_csupport.cpp.o
@@ -417,7 +417,7 @@ kmp_csupport.o: kmp_csupport.cpp.o
 
 # target to build an object file
 kmp_csupport.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_csupport.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_csupport.cpp.o
 .PHONY : kmp_csupport.cpp.o
 
 kmp_csupport.i: kmp_csupport.cpp.i
@@ -426,7 +426,7 @@ kmp_csupport.i: kmp_csupport.cpp.i
 
 # target to preprocess a source file
 kmp_csupport.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_csupport.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_csupport.cpp.i
 .PHONY : kmp_csupport.cpp.i
 
 kmp_csupport.s: kmp_csupport.cpp.s
@@ -435,7 +435,7 @@ kmp_csupport.s: kmp_csupport.cpp.s
 
 # target to generate assembly for a file
 kmp_csupport.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_csupport.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_csupport.cpp.s
 .PHONY : kmp_csupport.cpp.s
 
 kmp_debug.o: kmp_debug.cpp.o
@@ -444,7 +444,7 @@ kmp_debug.o: kmp_debug.cpp.o
 
 # target to build an object file
 kmp_debug.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_debug.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_debug.cpp.o
 .PHONY : kmp_debug.cpp.o
 
 kmp_debug.i: kmp_debug.cpp.i
@@ -453,7 +453,7 @@ kmp_debug.i: kmp_debug.cpp.i
 
 # target to preprocess a source file
 kmp_debug.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_debug.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_debug.cpp.i
 .PHONY : kmp_debug.cpp.i
 
 kmp_debug.s: kmp_debug.cpp.s
@@ -462,7 +462,7 @@ kmp_debug.s: kmp_debug.cpp.s
 
 # target to generate assembly for a file
 kmp_debug.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_debug.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_debug.cpp.s
 .PHONY : kmp_debug.cpp.s
 
 kmp_dispatch.o: kmp_dispatch.cpp.o
@@ -471,7 +471,7 @@ kmp_dispatch.o: kmp_dispatch.cpp.o
 
 # target to build an object file
 kmp_dispatch.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_dispatch.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_dispatch.cpp.o
 .PHONY : kmp_dispatch.cpp.o
 
 kmp_dispatch.i: kmp_dispatch.cpp.i
@@ -480,7 +480,7 @@ kmp_dispatch.i: kmp_dispatch.cpp.i
 
 # target to preprocess a source file
 kmp_dispatch.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_dispatch.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_dispatch.cpp.i
 .PHONY : kmp_dispatch.cpp.i
 
 kmp_dispatch.s: kmp_dispatch.cpp.s
@@ -489,7 +489,7 @@ kmp_dispatch.s: kmp_dispatch.cpp.s
 
 # target to generate assembly for a file
 kmp_dispatch.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_dispatch.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_dispatch.cpp.s
 .PHONY : kmp_dispatch.cpp.s
 
 kmp_environment.o: kmp_environment.cpp.o
@@ -498,7 +498,7 @@ kmp_environment.o: kmp_environment.cpp.o
 
 # target to build an object file
 kmp_environment.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_environment.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_environment.cpp.o
 .PHONY : kmp_environment.cpp.o
 
 kmp_environment.i: kmp_environment.cpp.i
@@ -507,7 +507,7 @@ kmp_environment.i: kmp_environment.cpp.i
 
 # target to preprocess a source file
 kmp_environment.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_environment.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_environment.cpp.i
 .PHONY : kmp_environment.cpp.i
 
 kmp_environment.s: kmp_environment.cpp.s
@@ -516,7 +516,7 @@ kmp_environment.s: kmp_environment.cpp.s
 
 # target to generate assembly for a file
 kmp_environment.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_environment.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_environment.cpp.s
 .PHONY : kmp_environment.cpp.s
 
 kmp_error.o: kmp_error.cpp.o
@@ -525,7 +525,7 @@ kmp_error.o: kmp_error.cpp.o
 
 # target to build an object file
 kmp_error.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_error.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_error.cpp.o
 .PHONY : kmp_error.cpp.o
 
 kmp_error.i: kmp_error.cpp.i
@@ -534,7 +534,7 @@ kmp_error.i: kmp_error.cpp.i
 
 # target to preprocess a source file
 kmp_error.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_error.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_error.cpp.i
 .PHONY : kmp_error.cpp.i
 
 kmp_error.s: kmp_error.cpp.s
@@ -543,7 +543,7 @@ kmp_error.s: kmp_error.cpp.s
 
 # target to generate assembly for a file
 kmp_error.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_error.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_error.cpp.s
 .PHONY : kmp_error.cpp.s
 
 kmp_ftn_cdecl.o: kmp_ftn_cdecl.cpp.o
@@ -552,7 +552,7 @@ kmp_ftn_cdecl.o: kmp_ftn_cdecl.cpp.o
 
 # target to build an object file
 kmp_ftn_cdecl.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_cdecl.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_cdecl.cpp.o
 .PHONY : kmp_ftn_cdecl.cpp.o
 
 kmp_ftn_cdecl.i: kmp_ftn_cdecl.cpp.i
@@ -561,7 +561,7 @@ kmp_ftn_cdecl.i: kmp_ftn_cdecl.cpp.i
 
 # target to preprocess a source file
 kmp_ftn_cdecl.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_cdecl.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_cdecl.cpp.i
 .PHONY : kmp_ftn_cdecl.cpp.i
 
 kmp_ftn_cdecl.s: kmp_ftn_cdecl.cpp.s
@@ -570,7 +570,7 @@ kmp_ftn_cdecl.s: kmp_ftn_cdecl.cpp.s
 
 # target to generate assembly for a file
 kmp_ftn_cdecl.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_cdecl.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_cdecl.cpp.s
 .PHONY : kmp_ftn_cdecl.cpp.s
 
 kmp_ftn_extra.o: kmp_ftn_extra.cpp.o
@@ -579,7 +579,7 @@ kmp_ftn_extra.o: kmp_ftn_extra.cpp.o
 
 # target to build an object file
 kmp_ftn_extra.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_extra.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_extra.cpp.o
 .PHONY : kmp_ftn_extra.cpp.o
 
 kmp_ftn_extra.i: kmp_ftn_extra.cpp.i
@@ -588,7 +588,7 @@ kmp_ftn_extra.i: kmp_ftn_extra.cpp.i
 
 # target to preprocess a source file
 kmp_ftn_extra.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_extra.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_extra.cpp.i
 .PHONY : kmp_ftn_extra.cpp.i
 
 kmp_ftn_extra.s: kmp_ftn_extra.cpp.s
@@ -597,7 +597,7 @@ kmp_ftn_extra.s: kmp_ftn_extra.cpp.s
 
 # target to generate assembly for a file
 kmp_ftn_extra.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_extra.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_ftn_extra.cpp.s
 .PHONY : kmp_ftn_extra.cpp.s
 
 kmp_global.o: kmp_global.cpp.o
@@ -606,7 +606,7 @@ kmp_global.o: kmp_global.cpp.o
 
 # target to build an object file
 kmp_global.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_global.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_global.cpp.o
 .PHONY : kmp_global.cpp.o
 
 kmp_global.i: kmp_global.cpp.i
@@ -615,7 +615,7 @@ kmp_global.i: kmp_global.cpp.i
 
 # target to preprocess a source file
 kmp_global.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_global.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_global.cpp.i
 .PHONY : kmp_global.cpp.i
 
 kmp_global.s: kmp_global.cpp.s
@@ -624,7 +624,7 @@ kmp_global.s: kmp_global.cpp.s
 
 # target to generate assembly for a file
 kmp_global.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_global.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_global.cpp.s
 .PHONY : kmp_global.cpp.s
 
 kmp_gsupport.o: kmp_gsupport.cpp.o
@@ -633,7 +633,7 @@ kmp_gsupport.o: kmp_gsupport.cpp.o
 
 # target to build an object file
 kmp_gsupport.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_gsupport.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_gsupport.cpp.o
 .PHONY : kmp_gsupport.cpp.o
 
 kmp_gsupport.i: kmp_gsupport.cpp.i
@@ -642,7 +642,7 @@ kmp_gsupport.i: kmp_gsupport.cpp.i
 
 # target to preprocess a source file
 kmp_gsupport.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_gsupport.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_gsupport.cpp.i
 .PHONY : kmp_gsupport.cpp.i
 
 kmp_gsupport.s: kmp_gsupport.cpp.s
@@ -651,7 +651,7 @@ kmp_gsupport.s: kmp_gsupport.cpp.s
 
 # target to generate assembly for a file
 kmp_gsupport.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_gsupport.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_gsupport.cpp.s
 .PHONY : kmp_gsupport.cpp.s
 
 kmp_i18n.o: kmp_i18n.cpp.o
@@ -660,7 +660,7 @@ kmp_i18n.o: kmp_i18n.cpp.o
 
 # target to build an object file
 kmp_i18n.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_i18n.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_i18n.cpp.o
 .PHONY : kmp_i18n.cpp.o
 
 kmp_i18n.i: kmp_i18n.cpp.i
@@ -669,7 +669,7 @@ kmp_i18n.i: kmp_i18n.cpp.i
 
 # target to preprocess a source file
 kmp_i18n.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_i18n.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_i18n.cpp.i
 .PHONY : kmp_i18n.cpp.i
 
 kmp_i18n.s: kmp_i18n.cpp.s
@@ -678,7 +678,7 @@ kmp_i18n.s: kmp_i18n.cpp.s
 
 # target to generate assembly for a file
 kmp_i18n.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_i18n.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_i18n.cpp.s
 .PHONY : kmp_i18n.cpp.s
 
 kmp_io.o: kmp_io.cpp.o
@@ -687,7 +687,7 @@ kmp_io.o: kmp_io.cpp.o
 
 # target to build an object file
 kmp_io.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_io.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_io.cpp.o
 .PHONY : kmp_io.cpp.o
 
 kmp_io.i: kmp_io.cpp.i
@@ -696,7 +696,7 @@ kmp_io.i: kmp_io.cpp.i
 
 # target to preprocess a source file
 kmp_io.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_io.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_io.cpp.i
 .PHONY : kmp_io.cpp.i
 
 kmp_io.s: kmp_io.cpp.s
@@ -705,7 +705,7 @@ kmp_io.s: kmp_io.cpp.s
 
 # target to generate assembly for a file
 kmp_io.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_io.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_io.cpp.s
 .PHONY : kmp_io.cpp.s
 
 kmp_itt.o: kmp_itt.cpp.o
@@ -714,7 +714,7 @@ kmp_itt.o: kmp_itt.cpp.o
 
 # target to build an object file
 kmp_itt.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_itt.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_itt.cpp.o
 .PHONY : kmp_itt.cpp.o
 
 kmp_itt.i: kmp_itt.cpp.i
@@ -723,7 +723,7 @@ kmp_itt.i: kmp_itt.cpp.i
 
 # target to preprocess a source file
 kmp_itt.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_itt.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_itt.cpp.i
 .PHONY : kmp_itt.cpp.i
 
 kmp_itt.s: kmp_itt.cpp.s
@@ -732,7 +732,7 @@ kmp_itt.s: kmp_itt.cpp.s
 
 # target to generate assembly for a file
 kmp_itt.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_itt.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_itt.cpp.s
 .PHONY : kmp_itt.cpp.s
 
 kmp_lock.o: kmp_lock.cpp.o
@@ -741,7 +741,7 @@ kmp_lock.o: kmp_lock.cpp.o
 
 # target to build an object file
 kmp_lock.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_lock.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_lock.cpp.o
 .PHONY : kmp_lock.cpp.o
 
 kmp_lock.i: kmp_lock.cpp.i
@@ -750,7 +750,7 @@ kmp_lock.i: kmp_lock.cpp.i
 
 # target to preprocess a source file
 kmp_lock.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_lock.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_lock.cpp.i
 .PHONY : kmp_lock.cpp.i
 
 kmp_lock.s: kmp_lock.cpp.s
@@ -759,7 +759,7 @@ kmp_lock.s: kmp_lock.cpp.s
 
 # target to generate assembly for a file
 kmp_lock.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_lock.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_lock.cpp.s
 .PHONY : kmp_lock.cpp.s
 
 kmp_runtime.o: kmp_runtime.cpp.o
@@ -768,7 +768,7 @@ kmp_runtime.o: kmp_runtime.cpp.o
 
 # target to build an object file
 kmp_runtime.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_runtime.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_runtime.cpp.o
 .PHONY : kmp_runtime.cpp.o
 
 kmp_runtime.i: kmp_runtime.cpp.i
@@ -777,7 +777,7 @@ kmp_runtime.i: kmp_runtime.cpp.i
 
 # target to preprocess a source file
 kmp_runtime.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_runtime.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_runtime.cpp.i
 .PHONY : kmp_runtime.cpp.i
 
 kmp_runtime.s: kmp_runtime.cpp.s
@@ -786,7 +786,7 @@ kmp_runtime.s: kmp_runtime.cpp.s
 
 # target to generate assembly for a file
 kmp_runtime.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_runtime.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_runtime.cpp.s
 .PHONY : kmp_runtime.cpp.s
 
 kmp_sched.o: kmp_sched.cpp.o
@@ -795,7 +795,7 @@ kmp_sched.o: kmp_sched.cpp.o
 
 # target to build an object file
 kmp_sched.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_sched.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_sched.cpp.o
 .PHONY : kmp_sched.cpp.o
 
 kmp_sched.i: kmp_sched.cpp.i
@@ -804,7 +804,7 @@ kmp_sched.i: kmp_sched.cpp.i
 
 # target to preprocess a source file
 kmp_sched.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_sched.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_sched.cpp.i
 .PHONY : kmp_sched.cpp.i
 
 kmp_sched.s: kmp_sched.cpp.s
@@ -813,7 +813,7 @@ kmp_sched.s: kmp_sched.cpp.s
 
 # target to generate assembly for a file
 kmp_sched.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_sched.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_sched.cpp.s
 .PHONY : kmp_sched.cpp.s
 
 kmp_settings.o: kmp_settings.cpp.o
@@ -822,7 +822,7 @@ kmp_settings.o: kmp_settings.cpp.o
 
 # target to build an object file
 kmp_settings.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_settings.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_settings.cpp.o
 .PHONY : kmp_settings.cpp.o
 
 kmp_settings.i: kmp_settings.cpp.i
@@ -831,7 +831,7 @@ kmp_settings.i: kmp_settings.cpp.i
 
 # target to preprocess a source file
 kmp_settings.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_settings.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_settings.cpp.i
 .PHONY : kmp_settings.cpp.i
 
 kmp_settings.s: kmp_settings.cpp.s
@@ -840,7 +840,7 @@ kmp_settings.s: kmp_settings.cpp.s
 
 # target to generate assembly for a file
 kmp_settings.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_settings.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_settings.cpp.s
 .PHONY : kmp_settings.cpp.s
 
 kmp_str.o: kmp_str.cpp.o
@@ -849,7 +849,7 @@ kmp_str.o: kmp_str.cpp.o
 
 # target to build an object file
 kmp_str.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_str.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_str.cpp.o
 .PHONY : kmp_str.cpp.o
 
 kmp_str.i: kmp_str.cpp.i
@@ -858,7 +858,7 @@ kmp_str.i: kmp_str.cpp.i
 
 # target to preprocess a source file
 kmp_str.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_str.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_str.cpp.i
 .PHONY : kmp_str.cpp.i
 
 kmp_str.s: kmp_str.cpp.s
@@ -867,7 +867,7 @@ kmp_str.s: kmp_str.cpp.s
 
 # target to generate assembly for a file
 kmp_str.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_str.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_str.cpp.s
 .PHONY : kmp_str.cpp.s
 
 kmp_taskdeps.o: kmp_taskdeps.cpp.o
@@ -876,7 +876,7 @@ kmp_taskdeps.o: kmp_taskdeps.cpp.o
 
 # target to build an object file
 kmp_taskdeps.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskdeps.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskdeps.cpp.o
 .PHONY : kmp_taskdeps.cpp.o
 
 kmp_taskdeps.i: kmp_taskdeps.cpp.i
@@ -885,7 +885,7 @@ kmp_taskdeps.i: kmp_taskdeps.cpp.i
 
 # target to preprocess a source file
 kmp_taskdeps.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskdeps.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskdeps.cpp.i
 .PHONY : kmp_taskdeps.cpp.i
 
 kmp_taskdeps.s: kmp_taskdeps.cpp.s
@@ -894,7 +894,7 @@ kmp_taskdeps.s: kmp_taskdeps.cpp.s
 
 # target to generate assembly for a file
 kmp_taskdeps.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskdeps.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskdeps.cpp.s
 .PHONY : kmp_taskdeps.cpp.s
 
 kmp_tasking.o: kmp_tasking.cpp.o
@@ -903,7 +903,7 @@ kmp_tasking.o: kmp_tasking.cpp.o
 
 # target to build an object file
 kmp_tasking.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_tasking.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_tasking.cpp.o
 .PHONY : kmp_tasking.cpp.o
 
 kmp_tasking.i: kmp_tasking.cpp.i
@@ -912,7 +912,7 @@ kmp_tasking.i: kmp_tasking.cpp.i
 
 # target to preprocess a source file
 kmp_tasking.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_tasking.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_tasking.cpp.i
 .PHONY : kmp_tasking.cpp.i
 
 kmp_tasking.s: kmp_tasking.cpp.s
@@ -921,7 +921,7 @@ kmp_tasking.s: kmp_tasking.cpp.s
 
 # target to generate assembly for a file
 kmp_tasking.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_tasking.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_tasking.cpp.s
 .PHONY : kmp_tasking.cpp.s
 
 kmp_taskq.o: kmp_taskq.cpp.o
@@ -930,7 +930,7 @@ kmp_taskq.o: kmp_taskq.cpp.o
 
 # target to build an object file
 kmp_taskq.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskq.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskq.cpp.o
 .PHONY : kmp_taskq.cpp.o
 
 kmp_taskq.i: kmp_taskq.cpp.i
@@ -939,7 +939,7 @@ kmp_taskq.i: kmp_taskq.cpp.i
 
 # target to preprocess a source file
 kmp_taskq.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskq.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskq.cpp.i
 .PHONY : kmp_taskq.cpp.i
 
 kmp_taskq.s: kmp_taskq.cpp.s
@@ -948,7 +948,7 @@ kmp_taskq.s: kmp_taskq.cpp.s
 
 # target to generate assembly for a file
 kmp_taskq.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskq.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_taskq.cpp.s
 .PHONY : kmp_taskq.cpp.s
 
 kmp_threadprivate.o: kmp_threadprivate.cpp.o
@@ -957,7 +957,7 @@ kmp_threadprivate.o: kmp_threadprivate.cpp.o
 
 # target to build an object file
 kmp_threadprivate.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_threadprivate.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_threadprivate.cpp.o
 .PHONY : kmp_threadprivate.cpp.o
 
 kmp_threadprivate.i: kmp_threadprivate.cpp.i
@@ -966,7 +966,7 @@ kmp_threadprivate.i: kmp_threadprivate.cpp.i
 
 # target to preprocess a source file
 kmp_threadprivate.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_threadprivate.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_threadprivate.cpp.i
 .PHONY : kmp_threadprivate.cpp.i
 
 kmp_threadprivate.s: kmp_threadprivate.cpp.s
@@ -975,7 +975,7 @@ kmp_threadprivate.s: kmp_threadprivate.cpp.s
 
 # target to generate assembly for a file
 kmp_threadprivate.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_threadprivate.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_threadprivate.cpp.s
 .PHONY : kmp_threadprivate.cpp.s
 
 kmp_utility.o: kmp_utility.cpp.o
@@ -984,7 +984,7 @@ kmp_utility.o: kmp_utility.cpp.o
 
 # target to build an object file
 kmp_utility.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_utility.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_utility.cpp.o
 .PHONY : kmp_utility.cpp.o
 
 kmp_utility.i: kmp_utility.cpp.i
@@ -993,7 +993,7 @@ kmp_utility.i: kmp_utility.cpp.i
 
 # target to preprocess a source file
 kmp_utility.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_utility.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_utility.cpp.i
 .PHONY : kmp_utility.cpp.i
 
 kmp_utility.s: kmp_utility.cpp.s
@@ -1002,7 +1002,7 @@ kmp_utility.s: kmp_utility.cpp.s
 
 # target to generate assembly for a file
 kmp_utility.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_utility.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_utility.cpp.s
 .PHONY : kmp_utility.cpp.s
 
 kmp_version.o: kmp_version.cpp.o
@@ -1011,7 +1011,7 @@ kmp_version.o: kmp_version.cpp.o
 
 # target to build an object file
 kmp_version.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_version.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_version.cpp.o
 .PHONY : kmp_version.cpp.o
 
 kmp_version.i: kmp_version.cpp.i
@@ -1020,7 +1020,7 @@ kmp_version.i: kmp_version.cpp.i
 
 # target to preprocess a source file
 kmp_version.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_version.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_version.cpp.i
 .PHONY : kmp_version.cpp.i
 
 kmp_version.s: kmp_version.cpp.s
@@ -1029,7 +1029,7 @@ kmp_version.s: kmp_version.cpp.s
 
 # target to generate assembly for a file
 kmp_version.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_version.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_version.cpp.s
 .PHONY : kmp_version.cpp.s
 
 kmp_wait_release.o: kmp_wait_release.cpp.o
@@ -1038,7 +1038,7 @@ kmp_wait_release.o: kmp_wait_release.cpp.o
 
 # target to build an object file
 kmp_wait_release.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_wait_release.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_wait_release.cpp.o
 .PHONY : kmp_wait_release.cpp.o
 
 kmp_wait_release.i: kmp_wait_release.cpp.i
@@ -1047,7 +1047,7 @@ kmp_wait_release.i: kmp_wait_release.cpp.i
 
 # target to preprocess a source file
 kmp_wait_release.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_wait_release.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_wait_release.cpp.i
 .PHONY : kmp_wait_release.cpp.i
 
 kmp_wait_release.s: kmp_wait_release.cpp.s
@@ -1056,7 +1056,7 @@ kmp_wait_release.s: kmp_wait_release.cpp.s
 
 # target to generate assembly for a file
 kmp_wait_release.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_wait_release.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/kmp_wait_release.cpp.s
 .PHONY : kmp_wait_release.cpp.s
 
 thirdparty/ittnotify/ittnotify_static.o: thirdparty/ittnotify/ittnotify_static.c.o
@@ -1065,7 +1065,7 @@ thirdparty/ittnotify/ittnotify_static.o: thirdparty/ittnotify/ittnotify_static.c
 
 # target to build an object file
 thirdparty/ittnotify/ittnotify_static.c.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/thirdparty/ittnotify/ittnotify_static.c.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/thirdparty/ittnotify/ittnotify_static.c.o
 .PHONY : thirdparty/ittnotify/ittnotify_static.c.o
 
 thirdparty/ittnotify/ittnotify_static.i: thirdparty/ittnotify/ittnotify_static.c.i
@@ -1074,7 +1074,7 @@ thirdparty/ittnotify/ittnotify_static.i: thirdparty/ittnotify/ittnotify_static.c
 
 # target to preprocess a source file
 thirdparty/ittnotify/ittnotify_static.c.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/thirdparty/ittnotify/ittnotify_static.c.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/thirdparty/ittnotify/ittnotify_static.c.i
 .PHONY : thirdparty/ittnotify/ittnotify_static.c.i
 
 thirdparty/ittnotify/ittnotify_static.s: thirdparty/ittnotify/ittnotify_static.c.s
@@ -1083,7 +1083,7 @@ thirdparty/ittnotify/ittnotify_static.s: thirdparty/ittnotify/ittnotify_static.c
 
 # target to generate assembly for a file
 thirdparty/ittnotify/ittnotify_static.c.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/thirdparty/ittnotify/ittnotify_static.c.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/thirdparty/ittnotify/ittnotify_static.c.s
 .PHONY : thirdparty/ittnotify/ittnotify_static.c.s
 
 z_Linux_asm.o: z_Linux_asm.S.o
@@ -1092,7 +1092,7 @@ z_Linux_asm.o: z_Linux_asm.S.o
 
 # target to build an object file
 z_Linux_asm.S.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_asm.S.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_asm.S.o
 .PHONY : z_Linux_asm.S.o
 
 z_Linux_asm.i: z_Linux_asm.S.i
@@ -1101,7 +1101,7 @@ z_Linux_asm.i: z_Linux_asm.S.i
 
 # target to preprocess a source file
 z_Linux_asm.S.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_asm.S.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_asm.S.i
 .PHONY : z_Linux_asm.S.i
 
 z_Linux_asm.s: z_Linux_asm.S.s
@@ -1110,7 +1110,7 @@ z_Linux_asm.s: z_Linux_asm.S.s
 
 # target to generate assembly for a file
 z_Linux_asm.S.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_asm.S.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_asm.S.s
 .PHONY : z_Linux_asm.S.s
 
 z_Linux_util.o: z_Linux_util.cpp.o
@@ -1119,7 +1119,7 @@ z_Linux_util.o: z_Linux_util.cpp.o
 
 # target to build an object file
 z_Linux_util.cpp.o:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_util.cpp.o
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_util.cpp.o
 .PHONY : z_Linux_util.cpp.o
 
 z_Linux_util.i: z_Linux_util.cpp.i
@@ -1128,7 +1128,7 @@ z_Linux_util.i: z_Linux_util.cpp.i
 
 # target to preprocess a source file
 z_Linux_util.cpp.i:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_util.cpp.i
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_util.cpp.i
 .PHONY : z_Linux_util.cpp.i
 
 z_Linux_util.s: z_Linux_util.cpp.s
@@ -1137,7 +1137,7 @@ z_Linux_util.s: z_Linux_util.cpp.s
 
 # target to generate assembly for a file
 z_Linux_util.cpp.s:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_util.cpp.s
+	cd /Users/dojo/openmp && $(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/z_Linux_util.cpp.s
 .PHONY : z_Linux_util.cpp.s
 
 # Help Target
@@ -1267,6 +1267,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /Users/dojo/openmp && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.9.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_SOURCE_DIR = /Users/dojo/openmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_BINARY_DIR = /Users/dojo/openmp
 
 #=============================================================================
 # Directory level rules for directory runtime
@@ -112,14 +112,14 @@ runtime/src/preinstall:
 runtime/src/CMakeFiles/libomp-test-touch.dir/all: runtime/src/CMakeFiles/omp.dir/all
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-touch.dir/build.make runtime/src/CMakeFiles/libomp-test-touch.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-touch.dir/build.make runtime/src/CMakeFiles/libomp-test-touch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=7 "Built target libomp-test-touch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=7 "Built target libomp-test-touch"
 .PHONY : runtime/src/CMakeFiles/libomp-test-touch.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/libomp-test-touch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-touch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/libomp-test-touch.dir/rule
 
 # Convenience name for target.
@@ -144,14 +144,14 @@ clean: runtime/src/CMakeFiles/libomp-test-touch.dir/clean
 runtime/src/CMakeFiles/libomp-test-deps.dir/all: runtime/src/CMakeFiles/omp.dir/all
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-deps.dir/build.make runtime/src/CMakeFiles/libomp-test-deps.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-deps.dir/build.make runtime/src/CMakeFiles/libomp-test-deps.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=3 "Built target libomp-test-deps"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=3 "Built target libomp-test-deps"
 .PHONY : runtime/src/CMakeFiles/libomp-test-deps.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/libomp-test-deps.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-deps.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/libomp-test-deps.dir/rule
 
 # Convenience name for target.
@@ -177,14 +177,14 @@ runtime/src/CMakeFiles/libomp-micro-tests.dir/all: runtime/src/CMakeFiles/libomp
 runtime/src/CMakeFiles/libomp-micro-tests.dir/all: runtime/src/CMakeFiles/libomp-test-deps.dir/all
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-micro-tests.dir/build.make runtime/src/CMakeFiles/libomp-micro-tests.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-micro-tests.dir/build.make runtime/src/CMakeFiles/libomp-micro-tests.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num= "Built target libomp-micro-tests"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num= "Built target libomp-micro-tests"
 .PHONY : runtime/src/CMakeFiles/libomp-micro-tests.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/libomp-micro-tests.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 37
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-micro-tests.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/libomp-micro-tests.dir/rule
 
 # Convenience name for target.
@@ -209,14 +209,14 @@ clean: runtime/src/CMakeFiles/libomp-micro-tests.dir/clean
 runtime/src/CMakeFiles/libomp-test-execstack.dir/all: runtime/src/CMakeFiles/omp.dir/all
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-execstack.dir/build.make runtime/src/CMakeFiles/libomp-test-execstack.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-execstack.dir/build.make runtime/src/CMakeFiles/libomp-test-execstack.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=4 "Built target libomp-test-execstack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=4 "Built target libomp-test-execstack"
 .PHONY : runtime/src/CMakeFiles/libomp-test-execstack.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/libomp-test-execstack.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-execstack.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/libomp-test-execstack.dir/rule
 
 # Convenience name for target.
@@ -241,14 +241,14 @@ clean: runtime/src/CMakeFiles/libomp-test-execstack.dir/clean
 runtime/src/CMakeFiles/libomp-test-relo.dir/all: runtime/src/CMakeFiles/omp.dir/all
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-relo.dir/build.make runtime/src/CMakeFiles/libomp-test-relo.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-relo.dir/build.make runtime/src/CMakeFiles/libomp-test-relo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=6 "Built target libomp-test-relo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=6 "Built target libomp-test-relo"
 .PHONY : runtime/src/CMakeFiles/libomp-test-relo.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/libomp-test-relo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-relo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/libomp-test-relo.dir/rule
 
 # Convenience name for target.
@@ -273,7 +273,7 @@ clean: runtime/src/CMakeFiles/libomp-test-relo.dir/clean
 runtime/src/CMakeFiles/omp.dir/all: runtime/src/CMakeFiles/libomp-needed-headers.dir/all
 	$(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/omp.dir/build.make runtime/src/CMakeFiles/omp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target omp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40 "Built target omp"
 .PHONY : runtime/src/CMakeFiles/omp.dir/all
 
 # Include target in all.
@@ -283,9 +283,9 @@ all: runtime/src/CMakeFiles/omp.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/omp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 35
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/omp.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/omp.dir/rule
 
 # Convenience name for target.
@@ -310,14 +310,14 @@ clean: runtime/src/CMakeFiles/omp.dir/clean
 runtime/src/CMakeFiles/libomp-test-instr.dir/all: runtime/src/CMakeFiles/omp.dir/all
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-instr.dir/build.make runtime/src/CMakeFiles/libomp-test-instr.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-test-instr.dir/build.make runtime/src/CMakeFiles/libomp-test-instr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=5 "Built target libomp-test-instr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=5 "Built target libomp-test-instr"
 .PHONY : runtime/src/CMakeFiles/libomp-test-instr.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/libomp-test-instr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 36
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-test-instr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/libomp-test-instr.dir/rule
 
 # Convenience name for target.
@@ -342,14 +342,14 @@ clean: runtime/src/CMakeFiles/libomp-test-instr.dir/clean
 runtime/src/CMakeFiles/libomp-needed-headers.dir/all:
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-needed-headers.dir/build.make runtime/src/CMakeFiles/libomp-needed-headers.dir/depend
 	$(MAKE) -f runtime/src/CMakeFiles/libomp-needed-headers.dir/build.make runtime/src/CMakeFiles/libomp-needed-headers.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles --progress-num=1,2 "Built target libomp-needed-headers"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/Users/dojo/openmp/CMakeFiles --progress-num=1,2 "Built target libomp-needed-headers"
 .PHONY : runtime/src/CMakeFiles/libomp-needed-headers.dir/all
 
 # Build rule for subdir invocation for target.
 runtime/src/CMakeFiles/libomp-needed-headers.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 runtime/src/CMakeFiles/libomp-needed-headers.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/dojo/openmp/CMakeFiles 0
 .PHONY : runtime/src/CMakeFiles/libomp-needed-headers.dir/rule
 
 # Convenience name for target.

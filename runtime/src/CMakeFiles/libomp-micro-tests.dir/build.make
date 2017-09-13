@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.1/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.9.2/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.9.1/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.9.2/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_SOURCE_DIR = /Users/dojo/openmp
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp
+CMAKE_BINARY_DIR = /Users/dojo/openmp
 
 # Utility rule file for libomp-micro-tests.
 
@@ -63,10 +63,10 @@ runtime/src/CMakeFiles/libomp-micro-tests.dir/build: libomp-micro-tests
 .PHONY : runtime/src/CMakeFiles/libomp-micro-tests.dir/build
 
 runtime/src/CMakeFiles/libomp-micro-tests.dir/clean:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-micro-tests.dir/cmake_clean.cmake
+	cd /Users/dojo/openmp/runtime/src && $(CMAKE_COMMAND) -P CMakeFiles/libomp-micro-tests.dir/cmake_clean.cmake
 .PHONY : runtime/src/CMakeFiles/libomp-micro-tests.dir/clean
 
 runtime/src/CMakeFiles/libomp-micro-tests.dir/depend:
-	cd /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src /Volumes/data/WorkSpace/py/tf_server/tensorflow/opencl/openmp/runtime/src/CMakeFiles/libomp-micro-tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/dojo/openmp && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp /Users/dojo/openmp/runtime/src /Users/dojo/openmp/runtime/src/CMakeFiles/libomp-micro-tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : runtime/src/CMakeFiles/libomp-micro-tests.dir/depend
 
